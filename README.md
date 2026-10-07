@@ -6,12 +6,16 @@
 
 ## 快速安装
 
-```bash
-# GitHub（国外用户）
-npx -y skills add Li-TongXue/liskill-members -g --all
+豆包 / 桌面 Agent 一键安装（国内用户推荐，装到豆包技能目录 `~/.agents/skills`）：
 
-# Gitee（国内用户，推荐）
-npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
+```bash
+curl -sL https://gitee.com/LTX12/liskill-members/raw/main/install.sh | bash
+```
+
+GitHub（国外用户，Claude/Codex 等）：
+
+```bash
+npx -y skills add Li-TongXue/liskill-members -g --all
 ```
 
 安装完成后，直接在 Agent 中输入 `/Li-xxx` 或对应触发词即可使用。
@@ -30,6 +34,14 @@ npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
 | Li-社交货币性选题内容判断 | `/Li-社交货币性选题内容判断`、「社交货币」「Social Currency」「转发性判断」「值不值得拍」「会不会有人转」 | 用《疯传》社交货币三机制判断选题/内容"观众愿不愿意转发"，不值得拍就用三机制改造或从零倒推易转发选题 |
 
 ## 更新
+
+豆包用户重跑安装命令即可全量同步最新技能：
+
+```bash
+curl -sL https://gitee.com/LTX12/liskill-members/raw/main/install.sh | bash
+```
+
+其他 Agent（Claude/Codex 等）使用：
 
 ```bash
 npx skills update -g
