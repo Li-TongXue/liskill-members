@@ -29,6 +29,21 @@ npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
 | Li-故事、事件vlog写作 | `/Li-故事、事件vlog写作`、「故事vlog」「事件vlog」「vlog旁白」「把这件事写成vlog」 | 用"不经意的在场"叙事策略写故事/事件型 vlog 旁白：情感现实主义、克制抒情、容器隐喻，支持自然商业植入 |
 | Li-社交货币性选题内容判断 | `/Li-社交货币性选题内容判断`、「社交货币」「Social Currency」「转发性判断」「值不值得拍」「会不会有人转」 | 用《疯传》社交货币三机制判断选题/内容"观众愿不愿意转发"，不值得拍就用三机制改造或从零倒推易转发选题 |
 
+## 目录名与中文名对照
+
+仓库目录使用英文命名（避免中文名在部分 Agent 的 slug 处理下被压成同一目录、互相覆盖）；安装后界面显示与 `/` 触发仍使用中文名（取自各技能 `SKILL.md` 的 `name` 字段）。
+
+| 英文目录名 | 中文技能名 |
+|---|---|
+| `Li-Agenda-Setting` | Li-议程设置内容定位 |
+| `Li-City-Impressions` | Li-城市印象文案生成 |
+| `Li-Conflict-Topics` | Li-冲突性选题 |
+| `Li-Eight-Audits` | Li-八大审核法 |
+| `Li-Public-Issues` | Li-公共问题升维 |
+| `Li-Social-Currency` | Li-社交货币性选题内容判断 |
+| `Li-Stasis-Topoi` | Li-Stasis-Topoi修辞学选题法 |
+| `Li-Story-Vlog` | Li-故事、事件vlog写作 |
+
 ## 更新
 
 ```bash
@@ -38,4 +53,4 @@ npx skills update -g
 ## 说明
 
 - 本仓库为会员专用分发渠道，安装指令请勿公开发布。
-- 技能采用中文命名，安装后直接显示中文名，无需手动改名。
+- 目录采用英文命名（防 slug 撞车），技能展示名与触发词保留中文（来自 SKILL.md 的 name / description），安装后直接显示中文名，无需手动改名。
