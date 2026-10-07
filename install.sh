@@ -20,10 +20,17 @@ else
     exit 1
 fi
 
+SKILL_COUNT="$(find "$TMP/skills" -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l | tr -d ' ')"
+if [ -z "$SKILL_COUNT" ] || [ "$SKILL_COUNT" = "0" ]; then
+    echo "✗ 仓库中未发现技能目录，请检查仓库结构。"
+    rm -rf "$TMP"
+    exit 1
+fi
+
 mkdir -p "$DEST"
-echo "▶ 同步技能到 ${DEST} ..."
+echo "▶ 同步 ${SKILL_COUNT} 个技能到 ${DEST} ..."
 cp -R "$TMP/skills/." "$DEST/"
 rm -rf "$TMP"
 
-echo "✅ 全部技能已同步完成。"
+echo "✅ ${SKILL_COUNT} 个技能已同步完成。"
 echo "   在豆包中输入 /Li-xxx 或对应触发词即可使用；更新时重跑本脚本。"
