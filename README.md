@@ -7,7 +7,11 @@
 ## 快速安装
 
 ```bash
+# GitHub（国外用户）
 npx -y skills add Li-TongXue/liskill-members -g --all
+
+# Gitee（国内用户，推荐）
+npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
 ```
 
 安装完成后，直接在 Agent 中输入 `/Li-xxx` 或对应触发词即可使用。
@@ -23,6 +27,7 @@ npx -y skills add Li-TongXue/liskill-members -g --all
 | Li-城市印象文案生成 | `/Li-城市印象文案生成`、「城市印象」「城市反转」 | 用"负面误解→真实小事反转→正面翻盘→情绪金句"结构，为城市/旅游/本地生活账号生成口播脚本 |
 | Li-议程设置内容定位 | `/Li-议程设置内容定位`、「议程设置」「内容印象诊断」「稳定印象」「账号印象」 | 判断一批内容会在观众脑子里形成什么稳定印象，并反推如何把这个印象做稳 |
 | Li-故事、事件vlog写作 | `/Li-故事、事件vlog写作`、「故事vlog」「事件vlog」「vlog旁白」「把这件事写成vlog」 | 用"不经意的在场"叙事策略写故事/事件型 vlog 旁白：情感现实主义、克制抒情、容器隐喻，支持自然商业植入 |
+| Li-社交货币性选题内容判断 | `/Li-社交货币性选题内容判断`、「社交货币」「Social Currency」「转发性判断」「值不值得拍」「会不会有人转」 | 用《疯传》社交货币三机制判断选题/内容"观众愿不愿意转发"，不值得拍就用三机制改造或从零倒推易转发选题 |
 
 ## 更新
 
