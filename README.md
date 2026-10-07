@@ -26,7 +26,7 @@ npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
 | Li-Stasis-Topoi 修辞学选题法 | `/Li-Stasis-Topoi`、`/Li-修辞学选题法`、「Stasis」「修辞学四层」「四层争点」「Topos」「共同事实 + 不同解释」 | 用 Stasis 四层争点法 + Topos 切口法拆解争议性话题，给出最适合传播的"争点层级 + Topos + 题目"组合 |
 | Li-City-Impressions 城市印象文案生成 | `/Li-城市印象文案生成`、「城市印象」「城市反转」 | 用"负面误解→真实小事反转→正面翻盘→情绪金句"结构，为城市/旅游/本地生活账号生成口播脚本 |
 | Li-Agenda-Setting 议程设置内容定位 | `/Li-议程设置内容定位`、「议程设置」「内容印象诊断」「稳定印象」「账号印象」 | 判断一批内容会在观众脑子里形成什么稳定印象，并反推如何把这个印象做稳 |
-| Li-Story-Vlog 故事、事件vlog写作 | `/Li-故事、事件vlog写作`、「故事vlog」「事件vlog」「vlog旁白」「把这件事写成vlog」 | 用"不经意的在场"叙事策略写故事/事件型 vlog 旁白：情感现实主义、克制抒情、容器隐喻，支持自然商业植入 |
+| Li-Story-Vlog 故事事件写作 | `/Li-Story-Vlog`、`/Li-故事事件写作`、「故事vlog」「事件vlog」「vlog旁白」「把这件事写成vlog」 | 用"不经意的在场"叙事策略写故事/事件型 vlog 旁白：情感现实主义、克制抒情、容器隐喻，支持自然商业植入 |
 | Li-Social-Currency 社交货币性选题内容判断 | `/Li-社交货币性选题内容判断`、「社交货币」「Social Currency」「转发性判断」「值不值得拍」「会不会有人转」 | 用《疯传》社交货币三机制判断选题/内容"观众愿不愿意转发"，不值得拍就用三机制改造或从零倒推易转发选题 |
 
 ## 目录名与 name 字段对照
@@ -42,7 +42,7 @@ npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
 | `Li-Public-Issues` | Li-Public-Issues 公共问题升维 |
 | `Li-Social-Currency` | Li-Social-Currency 社交货币性选题内容判断 |
 | `Li-Stasis-Topoi` | Li-Stasis-Topoi 修辞学选题法 |
-| `Li-Story-Vlog` | Li-Story-Vlog 故事、事件vlog写作 |
+| `Li-Story-Vlog` | Li-Story-Vlog 故事事件写作 |
 
 ## 更新
 
