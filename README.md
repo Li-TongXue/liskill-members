@@ -20,6 +20,7 @@ npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
 
 | 技能 | 触发方式（示例） | 作用 |
 |---|---|---|
+| Li 主入口 | `/Li`、「帮我选题」「帮我看内容」 | liskill 家族路由器：只记一个 `/Li`，根据需求自动路由到下方 8 个技能 |
 | Li-Eight-Audits 八大审核法 | `/Li-八大审核法`、「帮我审稿」「这条能不能发」「按八步流程审核」「为什么没流量」 | 用 8 步短视频审核流程诊断已写好的口播文案/脚本，指出最致命的 1-3 个缺口并给出可直接使用的改写 |
 | Li-Public-Issues 公共问题升维 | `/Li-公共问题升维`、「这个现象值不值得讲」「帮我把这个问题讲大」「个体现象怎么变成公共话题」 | 把私人模糊的"我觉得不对劲"还原成可观察现象，检验公共性，找到底层机制，形成值得讨论的公共问题 |
 | Li-Conflict-Topics 冲突性选题 | `/Li-冲突性选题`、「这个话题太平了」「帮我找冲突」「怎么往冲突里推」 | 判断普通话题是否适合走冲突，找到主冲突，推进成更有题感和传播张力的内容入口 |
@@ -35,6 +36,7 @@ npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
 
 | 英文目录名 | name 字段（界面显示名） |
 |---|---|
+| `Li` | Li（主入口 · 路由器） |
 | `Li-Agenda-Setting` | Li-Agenda-Setting 议程设置内容定位 |
 | `Li-City-Impressions` | Li-City-Impressions 城市印象文案生成 |
 | `Li-Conflict-Topics` | Li-Conflict-Topics 冲突性选题 |
