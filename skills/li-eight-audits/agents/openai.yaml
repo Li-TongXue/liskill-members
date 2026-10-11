@@ -1,4 +1,4 @@
 interface:
   display_name: "li-eight-audits（八大审核法）"
-  short_description: "对已有中文口播稿或短视频脚本做表达检查与改写，定位情绪直述、模糊信息、细节、引语和冲突方面的问题。"
+  short_description: "按八步审核流程诊断已有口播稿或脚本：选题、开头、陌生化、信息密度、朋友与敌人、营销点、信息效率、筹码，判断能不能发并给出改写。"
   default_prompt: "使用 $li-eight-audits，根据我提供的材料完成当前任务。"
