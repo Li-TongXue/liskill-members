@@ -1,0 +1,118 @@
+{
+  "source_commit": "c3c83877e125e8e8b78f1733b9b58324e624f5c3",
+  "skills": [
+    {
+      "name": "li",
+      "aliases": [
+        "Li",
+        "li"
+      ],
+      "files": {
+        "SKILL.md": "a25d1de4d8e8a35438e8ada4ceea89f59e85a3422a640f37dbee487e3afcd01b"
+      }
+    },
+    {
+      "name": "li-agenda-setting",
+      "aliases": [
+        "Li-Agenda-Setting",
+        "Li-Agenda-Setting 议程设置内容定位",
+        "li-agenda-setting"
+      ],
+      "files": {
+        "SKILL.md": "f054bace9e1e6b8f8c075d88eff52001d2294b6e5d04382129738972c6120376"
+      }
+    },
+    {
+      "name": "li-city-impressions",
+      "aliases": [
+        "Li-City-Impressions",
+        "Li-City-Impressions 城市印象文案生成",
+        "li-city-impressions"
+      ],
+      "files": {
+        "SKILL.md": "b74e7ddec2dcccc4c97302797057b593f9cbc65cb0f98392402364a225c6117a",
+        "references/case-study.md": "6f633a27b10904a22aa804d24798c596569995a146378afb67901e77608c9097",
+        "references/city-data.csv": "bed204efd942cd838899d3fb4d4a604e9ce7dfa54fae85419c1d4f0cd0cd32bb"
+      }
+    },
+    {
+      "name": "li-conflict-topics",
+      "aliases": [
+        "Li-Conflict-Topics",
+        "Li-Conflict-Topics 冲突性选题",
+        "li-conflict-topics"
+      ],
+      "files": {
+        "SKILL.md": "572a01d1bf166f1062f0197b12deaac7b51543f0da9949309ff57689671bc650"
+      }
+    },
+    {
+      "name": "li-eight-audits",
+      "aliases": [
+        "Li-Eight-Audits",
+        "Li-Eight-Audits 八大审核法",
+        "li-eight-audits"
+      ],
+      "files": {
+        "SKILL.md": "20e907f2d1a0191c5178c4af045da504665a43502eb1734a4613225ff2242d05",
+        "文案审核.md": "4d5ee0c25b31c2f6011d66051f927f31aaecd18cae95f0be4cefb469e65069e3"
+      }
+    },
+    {
+      "name": "li-material-mining",
+      "aliases": [
+        "Li-Material-Mining",
+        "li-material-mining"
+      ],
+      "files": {
+        "SKILL.md": "11e298193480261197bc308407591f7659d4637d8100145a1fccbec7fa12624d"
+      }
+    },
+    {
+      "name": "li-public-issues",
+      "aliases": [
+        "Li-Public-Issues",
+        "Li-Public-Issues 公共问题升维",
+        "li-public-issues"
+      ],
+      "files": {
+        "SKILL.md": "cb3a4d1f4d77398fd59cc4127bbbd07fe4e098e6dc5f1d2cf45d13a0f5f37591",
+        "references/case-study.md": "d0bc272aa6011b9ab2e993c0582567c5376f2dfe57d310dbb3dc626f82f9da4b"
+      }
+    },
+    {
+      "name": "li-social-currency",
+      "aliases": [
+        "Li-Social-Currency",
+        "Li-Social-Currency 社交货币性选题内容判断",
+        "li-social-currency"
+      ],
+      "files": {
+        "SKILL.md": "fd62d11be48460a4b193b8ca400dad3d7a25d36575231f0b47c249e681d063eb"
+      }
+    },
+    {
+      "name": "li-stasis-topoi",
+      "aliases": [
+        "Li-Stasis-Topoi",
+        "Li-Stasis-Topoi 修辞学选题法",
+        "li-stasis-topoi"
+      ],
+      "files": {
+        "SKILL.md": "3ddf265f933e19cda247c1ba58f9181f40f69821ccaf458482981bd5a13ceaef"
+      }
+    },
+    {
+      "name": "li-story-vlog",
+      "aliases": [
+        "Li-Story-Vlog",
+        "Li-Story-Vlog 故事事件写作",
+        "li-story-vlog"
+      ],
+      "files": {
+        "SKILL.md": "4df3722b1d693d53c8ebdc2b1312956604ff11d6c1c315bcd9dd55451b172d48",
+        "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0"
+      }
+    }
+  ]
+}

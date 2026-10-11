@@ -1,0 +1,4 @@
+interface:
+  display_name: "li-story-vlog（故事事件写作）"
+  short_description: "将真实经历或人物关系写成克制、留白的 Vlog 旁白，也可按此文风修改已有稿件。"
+  default_prompt: "使用 $li-story-vlog，根据我提供的材料完成当前任务。"

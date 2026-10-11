@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "repository": "https://gitee.com/LTX12/liskill-members.git",
+  "skills": [
+    {
+      "name": "li",
+      "display_name": "Li 主入口",
+      "kind": "router",
+      "description": "为 liskill 选择适合当前任务的技能。用户明确调用 li、不知道该用哪个 Li 技能，或一个任务需要多项 Li 能力配合时使用；已明确匹配单个业务技能时直接使用该技能。",
+      "completion_level": "internal",
+      "completion_reason": "系统路由入口，不直接生成业务文稿。"
+    },
+    {
+      "name": "li-agenda-setting",
+      "display_name": "议程设置内容定位",
+      "kind": "business",
+      "description": "分析一组内容会让观众形成什么稳定印象，并给出内容支柱和最小修正建议。用户检查账号长期印象或希望反推内容定位时使用；不用于单条稿件的表达润色。",
+      "completion_level": "2",
+      "completion_reason": "已有材料收集、正反向分析流程及结果模板。",
+      "completion_upgrade_status": "已满足：已有材料收集、正反向分析流程及结果模板。"
+    },
+    {
+      "name": "li-city-impressions",
+      "display_name": "城市印象文案生成",
+      "kind": "business",
+      "description": "从用户对城市的真实观察中，组织误解与事实反转的短视频口播脚本。用户希望讲述城市印象或本地生活体验时使用；缺少真实反转经历时先补素材，不虚构故事。",
+      "completion_level": "1",
+      "completion_reason": "城市数据仅有未核验示例；需要与用户补齐并确认真实经历和城市细节。"
+    },
+    {
+      "name": "li-conflict-topics",
+      "display_name": "冲突性选题",
+      "kind": "business",
+      "description": "判断普通话题是否适合以冲突展开，找出主冲突并形成不同力度的选题。用户觉得话题太平、想找张力或把话题推进成题时使用；不强推没有真实分歧的教程和通知。",
+      "completion_level": "2",
+      "completion_reason": "内置六类判断方法、适配筛选和选题输出流程。",
+      "completion_upgrade_status": "已满足：内置六类判断方法、适配筛选和选题输出流程。"
+    },
+    {
+      "name": "li-eight-audits",
+      "display_name": "八大审核法",
+      "kind": "business",
+      "description": "对已有中文口播稿或短视频脚本按「八步审核流程」逐条诊断：选题=需求+解决方案、开头5秒勾引、陌生化+普遍性、信息清单、明确的朋友和敌人、植入个人营销点、信息效率、筹码，判断能不能发、卡在哪几步、最致命的缺口，并给出可直接使用的改写示范。用户要求审稿、改文案、判断文案能不能发、增强画面感或流量时使用；不用于从零写作、标题起名、发布合规判断或整体流量归因。",
+      "completion_level": "2",
+      "completion_reason": "已具备李老师八步审核流程全文、文案类型与客群确认、信息清单打分与筹码加码方法。",
+      "completion_upgrade_status": "已满足：八步流程完整，含类型差异处理、输出格式与重点改造示范。"
+    },
+    {
+      "name": "li-material-mining",
+      "display_name": "素材挖掘",
+      "kind": "business",
+      "description": "通过逐轮追问，从用户的工作和日常经历中挖掘真实的短视频素材，并形成可拍的选题。用户不知道拍什么、觉得日常没有内容，或希望通过聊天寻找素材时使用；已有明确素材、只需要改稿时不使用。",
+      "completion_level": "2",
+      "completion_reason": "已有逐轮问答、素材充分性判断和五套随包分发的方法；缺失的两套扩展不计入能力。",
+      "completion_upgrade_status": "已满足：已有逐轮问答、素材充分性判断和五套随包分发的方法；缺失的两套扩展不计入能力。"
+    },
+    {
+      "name": "li-public-issues",
+      "display_name": "公共问题升维",
+      "kind": "business",
+      "description": "检验具体事件或个人观察是否具有公共性，用事实和机制假设形成值得讨论的公共问题。用户觉得现象不对劲、想讲清背后机制或让更多人理解其影响时使用；证据不足时不强行扩大结论。",
+      "completion_level": "2",
+      "completion_reason": "已有事实收集、公共性筛选、假设检验、确认与输出流程。",
+      "completion_upgrade_status": "已满足：已有事实收集、公共性筛选、假设检验、确认与输出流程。"
+    },
+    {
+      "name": "li-social-currency",
+      "display_name": "社交货币选题判断",
+      "kind": "business",
+      "description": "从观众愿意转给谁、转发如何影响自身形象出发，判断和改造选题的分享性。用户明确关心转发、分享或社交货币时使用；不将转发性等同于整体拍摄价值、获客价值或播放量预测。",
+      "completion_level": "2",
+      "completion_reason": "内置分享性判断、三个改造机制和不同输入的输出模板。",
+      "completion_upgrade_status": "已满足：内置分享性判断、三个改造机制和不同输入的输出模板。"
+    },
+    {
+      "name": "li-stasis-topoi",
+      "display_name": "修辞学选题法",
+      "kind": "business",
+      "description": "从已有事实和不同解释中识别核心争点，再选择因果、定义、对比等切口形成选题。用户想弄清在争什么或选择争议内容角度时使用；事实尚不清楚时先补材料。",
+      "completion_level": "2",
+      "completion_reason": "内置争点与切口方法、混层检查和结果模板。",
+      "completion_upgrade_status": "已满足：内置争点与切口方法、混层检查和结果模板。"
+    },
+    {
+      "name": "li-story-vlog",
+      "display_name": "故事事件写作",
+      "kind": "business",
+      "description": "将真实经历或人物关系写成克制、留白的 Vlog 旁白，也可按此文风修改已有稿件。用户要求故事 Vlog、事件旁白或克制叙事时使用；不用于强观点口播、教程或强转化带货。",
+      "completion_level": "2",
+      "completion_reason": "已有一轮素材收集、五种内容策略、随包文风规范及改稿流程。",
+      "completion_upgrade_status": "已满足：已有一轮素材收集、五种内容策略、随包文风规范及改稿流程。"
+    },
+    {
+      "name": "li-update",
+      "display_name": "更新 liskill",
+      "kind": "system",
+      "description": "检查或更新官方 liskill-members 的安装。用户要求更新、升级或检查 Li 安装状态时使用；仅询问版本或更新方式时先解释，只有明确要求更新才执行写入。",
+      "completion_level": "internal",
+      "completion_reason": "系统维护入口，不直接生成业务文稿。"
+    }
+  ]
+}
