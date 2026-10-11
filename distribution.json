@@ -60,7 +60,7 @@
       "SKILL.md": "fc2f974cce62e771db134bc5a90821ea4036d86398a02698c79ddd2e42210ecb",
       "agents/openai.yaml": "bf10f4f62a687b7ac7bf0ccaa551fe4eeca9431c917bb6e6499c66408ecbcf92",
       "references/legacy-installations.json": "419cf59904cf0da23fb7253b8b46d804fee02e626ede4f5c3e48e4d59d421bbc",
-      "references/migration.md": "71c3d9f171e6dcc51e901fe9e01c2fe2377f7226f03a0d9cbc1f7cd8c88d61e7",
+      "references/migration.md": "4bdcf6bdb5da2e355b0b78770c5f46775e88121b0a00858c6737caa8ae620b67",
       "scripts/update.py": "ff1f33e9af01a6526e9e5f5f760f83a4578762fbb474a2e3d318b493ba18cf18"
     }
   }

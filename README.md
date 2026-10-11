@@ -4,36 +4,34 @@ liskill 会员技能仓库。通过对话，从真实素材出发，完成内容
 
 适用于支持 Agent Skills 和本地文件读取的工具。不同客户端的安装入口、命令展示和脚本执行能力不同；不能执行脚本的客户端需要在终端完成更新，再按其导入方式重新加载。
 
-## 安装或从旧版升级
+## 安装或更新
 
-推荐使用本仓库的专属更新器。需要 Git 和 Python 3.10 或更新版本，在终端执行：
+推荐使用一行命令安装到全局（需要 Node，npx 会自动下载）：
+
+```bash
+# Gitee（国内用户）
+npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
+
+# GitHub（国外用户）
+npx -y skills add Li-TongXue/liskill-members -g --all
+```
+
+安装完成后，直接在 Agent 中说需求（例如「帮我从今天的工作里找能拍的事」），或使用 `li` 主入口 / 各技能的英文机器名即可。
+
+**更新**：重新运行上面的命令即可更新到最新版本。
+
+> 旧版安装过中文 / 大写名称目录（`Li-*`）的用户，更新后如果发现旧名字的技能还在，把它从技能目录中删除即可（例如删除 `~/.agents/skills/` 下 `Li-` 开头的旧目录），保留 `li-` 开头的新版本。
+
+### 可选：使用 li-update 自动迁移（需要 Git + Python 3.10+）
+
+如果已经安装过旧版本、或希望自动清理旧目录并保留本地修改，可以使用仓库内置的更新器（可选，普通用户不需要）：
 
 ```bash
 git clone --depth 1 https://gitee.com/LTX12/liskill-members.git liskill-members-update
 python3 liskill-members-update/skills/li-update/scripts/update.py --apply
 ```
 
-Windows 安装 Python 后可将 `python3` 换成 `py -3`。如果下载目录已存在，请使用另一个空目录名，不要覆盖原目录。
-
-同一方式可用于新装和老会员第一次升级。老版本没有 `li-update`，因此首次升级先运行上面的命令。成功后可以删除下载目录；已安装技能是独立副本，不依赖下载目录。
-
-默认安装到通用的 `~/.agents/skills/`；存在 Claude Code 用户目录时也同步 `~/.claude/skills/`。已识别的 `~/.codex/skills/` 旧 Li 安装迁移到通用目录。其他客户端使用自己的技能导入功能，或明确指定其实际技能目录：
-
-```bash
-python3 liskill-members-update/skills/li-update/scripts/update.py --apply --skills-dir "/实际的技能目录"
-```
-
-指定目录会替代默认目录选择；可重复传入 `--skills-dir` 同步多个已知目录。不知道目录时先查对应客户端说明，不猜测路径。
-
-已经通过 skills CLI 安装的旧版本通常已被转换为小写目录，可直接由更新器识别。手动复制的旧英文目录也会检查。只有内容与已知官方副本一致，或与上次更新记录一致时才迁移；检测到修改、额外文件或同名其他来源时停止并保留原状。详见 [安装与迁移](docs/installation.md)。
-
-若仅需在独立环境试用单个技能，也可以使用 skills CLI：
-
-```bash
-npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --skill li-material-mining
-```
-
-CLI 安装由该工具管理，不能代替本更新器的旧名称检查与保护流程。已有自定义改动时优先使用本仓库更新器检查。
+Windows 安装 Python 后可将 `python3` 换成 `py -3`。更新器只维护官方 liskill 集合：识别旧目录并迁移、备份后替换、失败回滚、检测本地修改时停止并保留原状。详见 [安装与迁移](docs/installation.md)。
 
 ## 开始使用
 
