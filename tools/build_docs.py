@@ -8,10 +8,9 @@ START, END = '<!-- skills:start -->', '<!-- skills:end -->'
 
 def table():
     entries = json.loads((ROOT/'skills.json').read_text(encoding='utf-8'))['skills']
-    lines = ['| 机器名称 | 中文名称 | 类型 | 完成度 | 用途 |', '|---|---|---|---|---|']
+    lines = ['| 机器名称 | 中文名称 | 用途 |', '|---|---|---|']
     for e in entries:
-        level = '系统工具' if e['completion_level']=='internal' else 'Level '+e['completion_level']
-        lines.append(f"| `{e['name']}` | {e['display_name']} | {e['kind']} | {level} | {e['description']} |")
+        lines.append(f"| `{e['name']}` | {e['display_name']} | {e['description']} |")
     return '\n'.join(lines)
 
 
