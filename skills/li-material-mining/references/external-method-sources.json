@@ -1,0 +1,14 @@
+[
+  {
+    "source": "dbskill/skills/dbs-beta-stasis-angle/SKILL.md",
+    "source_sha256": "e77bf854e00e5e92dca250e32225c4b1fa3349dcf9b9a8a4b231550795357a0b",
+    "file": "stasis-angle.md",
+    "bundled_sha256": "78411d9fcbbfd799df6d1f6191b1a8922577f296d892edb5fc9b9232215919ba"
+  },
+  {
+    "source": "dbskill/skills/dbs-beta-stasis-angle/references/theory-map.md",
+    "source_sha256": "d0de25615588326a545e9ca04b0d165266e379da769f54aea5aae3fa173c5dc9",
+    "file": "stasis-theory.md",
+    "bundled_sha256": "d0de25615588326a545e9ca04b0d165266e379da769f54aea5aae3fa173c5dc9"
+  }
+]

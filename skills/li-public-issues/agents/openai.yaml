@@ -1,0 +1,4 @@
+interface:
+  display_name: "li-public-issues（公共问题升维）"
+  short_description: "检验具体事件或个人观察是否具有公共性，用事实和机制假设形成值得讨论的公共问题。"
+  default_prompt: "使用 $li-public-issues，根据我提供的材料完成当前任务。"

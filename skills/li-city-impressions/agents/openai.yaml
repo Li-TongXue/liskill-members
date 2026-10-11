@@ -1,0 +1,4 @@
+interface:
+  display_name: "li-city-impressions（城市印象文案生成）"
+  short_description: "从用户对城市的真实观察中，组织误解与事实反转的短视频口播脚本。"
+  default_prompt: "使用 $li-city-impressions，根据我提供的材料完成当前任务。"

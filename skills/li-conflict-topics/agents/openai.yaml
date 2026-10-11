@@ -1,0 +1,4 @@
+interface:
+  display_name: "li-conflict-topics（冲突性选题）"
+  short_description: "判断普通话题是否适合以冲突展开，找出主冲突并形成不同力度的选题。"
+  default_prompt: "使用 $li-conflict-topics，根据我提供的材料完成当前任务。"
