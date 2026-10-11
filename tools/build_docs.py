@@ -8,9 +8,9 @@ START, END = '<!-- skills:start -->', '<!-- skills:end -->'
 
 def table():
     entries = json.loads((ROOT/'skills.json').read_text(encoding='utf-8'))['skills']
-    lines = ['| 机器名称 | 中文名称 | 用途 |', '|---|---|---|']
-    for e in entries:
-        lines.append(f"| `{e['name']}` | {e['display_name']} | {e['description']} |")
+    lines = ['| # | 调用名 | 中文名称 | 用途 |', '|---|---|---|---|']
+    for i, e in enumerate(entries, 1):
+        lines.append(f"| {i} | `{e['name']}` | {e['display_name']} | {e['description']} |")
     return '\n'.join(lines)
 
 
