@@ -1,0 +1,46 @@
+[
+  {
+    "file": "stasis-topoi.md",
+    "sources": [
+      {
+        "path": "skills/li-stasis-topoi/SKILL.md",
+        "sha256": "4198f2086acbacd82388a853630f0750f7042b20dba7376d47738c01c318fbf6"
+      },
+      {
+        "path": "skills/li-stasis-topoi/references/method.md",
+        "sha256": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
+      }
+    ]
+  },
+  {
+    "file": "conflict.md",
+    "sources": [
+      {
+        "path": "skills/li-conflict-topics/SKILL.md",
+        "sha256": "75aff99531789dd4cb61172f2e384f424e54c7764612fdbeb8a458b8b76fe0b9"
+      }
+    ]
+  },
+  {
+    "file": "public-issues.md",
+    "sources": [
+      {
+        "path": "skills/li-public-issues/SKILL.md",
+        "sha256": "3e409c79860167437e74038573e9ff0a87cc404b4f9fd62f4013a1bee65a094a"
+      },
+      {
+        "path": "skills/li-public-issues/references/case-study.md",
+        "sha256": "d0bc272aa6011b9ab2e993c0582567c5376f2dfe57d310dbb3dc626f82f9da4b"
+      }
+    ]
+  },
+  {
+    "file": "social-currency.md",
+    "sources": [
+      {
+        "path": "skills/li-social-currency/SKILL.md",
+        "sha256": "9b5e5ae92d89b4b19e89eebe50c5f4c859499ce31658318dcd17b33f74681284"
+      }
+    ]
+  }
+]

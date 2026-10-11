@@ -1,0 +1,4 @@
+interface:
+  display_name: "li-material-mining（素材挖掘）"
+  short_description: "通过逐轮追问，从用户的工作和日常经历中挖掘真实的短视频素材，并形成可拍的选题。"
+  default_prompt: "使用 $li-material-mining，根据我提供的材料完成当前任务。"

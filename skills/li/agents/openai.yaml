@@ -1,0 +1,4 @@
+interface:
+  display_name: "li（Li 主入口）"
+  short_description: "为 liskill 选择适合当前任务的技能，交付适合当前任务的明确结果。"
+  default_prompt: "使用 $li，根据我提供的材料完成当前任务。"

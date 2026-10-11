@@ -1,0 +1,4 @@
+interface:
+  display_name: "li-update（更新 liskill）"
+  short_description: "检查或更新官方 liskill-members 的安装。"
+  default_prompt: "使用 $li-update，检查 liskill 安装状态。"
