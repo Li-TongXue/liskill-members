@@ -1,5 +1,5 @@
 ---
-name: li-public-issues
+name: li-public-issues 公共问题升维
 description: "检验具体事件或个人观察是否具有公共性，用事实和机制假设形成值得讨论的公共问题。用户觉得现象不对劲、想讲清背后机制或让更多人理解其影响时使用；证据不足时不强行扩大结论。"
 metadata:
   collection: "liskill-members"

@@ -1,5 +1,5 @@
 ---
-name: li-conflict-topics
+name: li-conflict-topics 冲突性选题
 description: "判断普通话题是否适合以冲突展开，找出主冲突并形成不同力度的选题。用户觉得话题太平、想找张力或把话题推进成题时使用；不强推没有真实分歧的教程和通知。"
 metadata:
   collection: "liskill-members"
