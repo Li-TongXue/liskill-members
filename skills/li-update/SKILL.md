@@ -1,5 +1,5 @@
 ---
-name: li-update 更新 liskill
+name: li-update 更新工具
 description: "检查或更新官方 liskill-members 的安装。用户要求更新、升级或检查 Li 安装状态时使用；仅询问版本或更新方式时先解释，只有明确要求更新才执行写入。"
 metadata:
   collection: "liskill-members"
