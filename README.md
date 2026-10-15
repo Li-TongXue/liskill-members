@@ -4,6 +4,46 @@ liskill 会员技能仓库。通过对话，从真实素材出发，完成内容
 
 适用于支持 Agent Skills 和本地文件读取的工具。不同客户端的安装入口、命令展示和脚本执行能力不同；不能执行脚本的客户端需要在终端完成更新，再按其导入方式重新加载。
 
+---
+
+## 🔧 安装后排查指南（如果技能列表看不到）
+
+> **请 Agent 重点读这一段：** 如果用户说"技能在对话里能用，但可视化技能列表看不到"，按下面步骤排查。
+
+**第一步：检查所有可能的安装目录**
+
+逐个查看下面这些目录里有没有 `li` 和所有 `li-` 开头的技能目录：
+
+| 目录 | 适用客户端 |
+|---|---|
+| `~/.agents/skills/` | 通用 Agent、npx 全局安装 |
+| `~/.claude/skills/` | Claude Code |
+| `.doubao/agent_mode/workspace/.skills/` | 豆包电脑版（内置技能目录） |
+| `.doubao/agent_mode/workspace/.user_skills/` | 豆包电脑版（用户技能目录） |
+
+**第二步：检查符号链接是否有效**
+
+逐个检查每个 `li-*` 目录是不是符号链接：
+- 如果是符号链接，用 `readlink` 看链接指向的目标路径是否存在
+- 如果目标不存在（悬空链接），或者目录缺失，重新执行安装命令修复：
+  ```bash
+  npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all
+  ```
+
+**第三步：确认文件完整**
+
+重装后再次确认：
+- 所有 `li-*` 目录都在
+- 每个目录里有完整的 `SKILL.md`（文件非空、能读取，文件头有 `name` 字段）
+
+**第四步：清理旧版残留**
+
+如果重装后可视化列表还是看不到，检查有没有旧的大写残留目录（`Li`、`Li-Eight-Audits` 等），有就删掉。
+
+**完成后告诉用户：** 目录是否存在、链接是否有效、SKILL.md 是否完整、可视化列表是否恢复正常。
+
+---
+
 ## 安装或更新
 
 推荐使用一行命令安装到全局（需要 Node，npx 会自动下载）：
@@ -81,6 +121,19 @@ Windows 安装 Python 后可将 `python3` 换成 `py -3`。更新器只维护官
 **怎么更新？** 直接对我说"更新 liskill"就行。更新完新开一个对话，就能看到最新版了。
 
 **只想检查有没有新版本？** 对我说"检查 Li 是否需要更新"，我只会告诉你有没有新版本，不会真的更新。
+
+## 常见问题
+
+### 可视化技能列表里看不到？
+
+把下面这段话发给 Agent，让它帮你排查修复：
+
+> 我电脑上安装的 liskill 技能（来源 https://gitee.com/LTX12/liskill-members.git ）在 Agent 里能识别，但可视化技能列表里看不到。请帮我排查并修复：
+> 1. 先查看技能安装目录里有没有这些技能：`~/.claude/skills` 和 `~/.agents/skills` 两个目录下，检查 li、li-agenda-setting、li-city-impressions、li-conflict-topics、li-eight-audits、li-material-mining、li-public-issues、li-social-currency、li-stasis-topoi、li-story-vlog、li-publish-pack、li-update 这 12 个小写目录是否存在
+> 2. 逐个检查这些目录是不是符号链接：如果是，用 `readlink` 看链接指向的目标路径是否存在；如果目标不存在（悬空链接）或者目录缺失，重新执行安装命令修复：`npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all`
+> 3. 重装后再次确认 12 个小写目录都在，且每个目录里有完整的 SKILL.md（文件非空、能读取，文件头有 name 字段）
+> 4. 如果重装后可视化列表还是看不到，检查有没有旧的大写残留目录（Li、Li-Eight-Audits 等），有就删掉
+> 5. 完成后告诉我：目录是否存在、链接是否有效、SKILL.md 是否完整、可视化列表是否恢复正常
 
 ## 维护
 
