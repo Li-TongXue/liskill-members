@@ -75,7 +75,6 @@ Windows 安装 Python 后可将 `python3` 换成 `py -3`。更新器只维护官
 | 12 | 工具 | `li-update` | 更新工具 | 检查或更新官方 liskill-members 的安装。用户要求更新、升级或检查 Li 安装状态时使用；仅询问版本或更新方式时先解释，只有明确要求更新才执行写入。 |
 <!-- skills:end -->
 
-素材挖掘提供五套随包方法。旧版引用但未取得原文的“相关性”和“新闻价值”扩展不计入当前能力，见 [方法来源](skills/li-material-mining/references/sources.md)。八大审核法已按李老师八步审核流程补全（Level 2），不再使用旧的五步表达检查。
 
 ## 后续更新
 
