@@ -3,7 +3,7 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "eed44bef4308b0f610051213af4584f433589137dfa1569ad45e3216555f41c6",
+      "SKILL.md": "a55c734f6641a55c23db42f5d4624ea59c9e23785bf26c05fcba69d7d7542699",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
     "li-agenda-setting": {
@@ -55,13 +55,13 @@
       "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
     },
     "li-story-vlog": {
-      "SKILL.md": "0e8a47ed1617431da5e40cc03e9b410843dde317fba11b5787f2b20832e4d3cf",
+      "SKILL.md": "7dc0d8ebd347f13b502a163ca35354dff9c003258e1f7a2290fe2336ad26e225",
       "agents/openai.yaml": "3bde34ad16c077e6ba6652f34c1860f2934773d2a79cf122604e61e703ac5a57",
       "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0"
     },
     "li-update": {
-      "SKILL.md": "2b62b5a2456a2e4c5252fd83a69e9925d0e9423ebb4f68ff1488cedc4e7049e7",
-      "scripts/update.py": "ff1f33e9af01a6526e9e5f5f760f83a4578762fbb474a2e3d318b493ba18cf18",
+      "SKILL.md": "0f855b98fe8d9f656d2ed8189ccc2c1879797ce4b0889ca3a96e25a171c5a1f9",
+      "scripts/update.py": "38a70d6df0f98001075cd1d7c0118fa8658b6f45907d3b039448d7eab6ebc76c",
       "agents/openai.yaml": "bf10f4f62a687b7ac7bf0ccaa551fe4eeca9431c917bb6e6499c66408ecbcf92",
       "references/migration.md": "4bdcf6bdb5da2e355b0b78770c5f46775e88121b0a00858c6737caa8ae620b67",
       "references/legacy-installations.json": "419cf59904cf0da23fb7253b8b46d804fee02e626ede4f5c3e48e4d59d421bbc"
