@@ -87,6 +87,10 @@ def install_plan(source, home, targets=None):
         destinations = [home / '.agents/skills']
         if (home / '.claude').is_dir():
             destinations.append(home / '.claude/skills')
+        # 豆包工作区的用户技能目录
+        doubao_skills = home / '.doubao' / 'agent_mode' / 'workspace' / '.user_skills'
+        if doubao_skills.parent.is_dir():
+            destinations.append(doubao_skills)
         cleanup = [home / '.codex/skills'] if (home / '.codex/skills').is_dir() else []
     else:
         destinations = [Path(p).expanduser().absolute() for p in targets]

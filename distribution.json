@@ -3,65 +3,68 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "936b9963fa88a2ac95921ba546240af25244de8e377e0fab77391ed9e328f000",
+      "SKILL.md": "eed44bef4308b0f610051213af4584f433589137dfa1569ad45e3216555f41c6",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
     "li-agenda-setting": {
-      "SKILL.md": "6290416004eeb650abccbc1376b646a7f0b6a06358b2bb33072519ff80ae005b",
+      "SKILL.md": "4fa562d01ab2736655df627cf18d704a6df783895746f0e7d603b0a359183719",
       "agents/openai.yaml": "d9700f1dfdc44ddc4500bb4a5300714d2c53c5413b207de13479b826a2f5230f"
     },
     "li-city-impressions": {
-      "SKILL.md": "a01139a796573bbf852d8a7cd34e1e21f9980f77c84e9a3b46f6649f22a98a27",
+      "SKILL.md": "b55801a87b150b34b249d40e7695f704f0b0057d02e0dfaa643dfdff838a55e9",
       "agents/openai.yaml": "c822c62c17da0702f663575a9d57cf432ee7f3d729ddd6a866b8cfec3674669e",
-      "references/case-study.md": "6f633a27b10904a22aa804d24798c596569995a146378afb67901e77608c9097",
-      "references/city-data.csv": "bed204efd942cd838899d3fb4d4a604e9ce7dfa54fae85419c1d4f0cd0cd32bb"
+      "references/city-data.csv": "bed204efd942cd838899d3fb4d4a604e9ce7dfa54fae85419c1d4f0cd0cd32bb",
+      "references/case-study.md": "6f633a27b10904a22aa804d24798c596569995a146378afb67901e77608c9097"
     },
     "li-conflict-topics": {
-      "SKILL.md": "75aff99531789dd4cb61172f2e384f424e54c7764612fdbeb8a458b8b76fe0b9",
+      "SKILL.md": "dce21c8d4f64a66cbc6affffc568521ae78d7f696fd7efb13215298012fb60e1",
       "agents/openai.yaml": "ea88db91722a4d1fda2e1a69dc50b19820297a37cf1b8cb9351a62d4bf82be77"
     },
     "li-eight-audits": {
-      "SKILL.md": "532cad68c4643825078c8b7b7a22978fd4430e42c6db83b7990b1741d6ac639d",
+      "SKILL.md": "350306363d2057d1d1201b2c7ac2739223bfbddf5db4f6c3bbcfaed8913c21fc",
       "agents/openai.yaml": "8476b70fcfe5a0a9f30f03288ea02afce54e65618083d0bc7d184ecc30b14bf4"
     },
     "li-material-mining": {
-      "SKILL.md": "5cb28ae85703c435e3f226a6ebd77c304c3617dd870aa4283f661d70c1f3dfc1",
+      "SKILL.md": "9fed3b70a30c881313674a41807e5d5705f74c0d59c7fcfc51de5e509ed161b4",
       "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
-      "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
-      "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
-      "references/li-method-sources.json": "67aeec2e349267f661d726a4649e6408aeab2354135a80b972a65f6b59afb4c9",
-      "references/public-issues.md": "c7552d750104c5cb79a10f353faea24cdd834c4953e937b60b7abeb628b28237",
-      "references/social-currency.md": "f18528c1be4c6837963fb08e55be80584708742395c78f35c4235cfa56cac2f0",
       "references/sources.md": "5a9f2ef125d28cb55317377192b4e7900b49e4af4080e6df296e4bbe1bec052c",
       "references/stasis-angle.md": "78411d9fcbbfd799df6d1f6191b1a8922577f296d892edb5fc9b9232215919ba",
+      "references/li-method-sources.json": "67aeec2e349267f661d726a4649e6408aeab2354135a80b972a65f6b59afb4c9",
+      "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
+      "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
+      "references/social-currency.md": "f18528c1be4c6837963fb08e55be80584708742395c78f35c4235cfa56cac2f0",
       "references/stasis-theory.md": "d0de25615588326a545e9ca04b0d165266e379da769f54aea5aae3fa173c5dc9",
-      "references/stasis-topoi.md": "ff0254b3e4a7e8e65ffb8503d5af53b68303c20c7763d9ddbe36cda8caad2c3e"
+      "references/stasis-topoi.md": "ff0254b3e4a7e8e65ffb8503d5af53b68303c20c7763d9ddbe36cda8caad2c3e",
+      "references/public-issues.md": "c7552d750104c5cb79a10f353faea24cdd834c4953e937b60b7abeb628b28237"
     },
     "li-public-issues": {
-      "SKILL.md": "3e409c79860167437e74038573e9ff0a87cc404b4f9fd62f4013a1bee65a094a",
+      "SKILL.md": "05b1d68adda015f356ddbc1699309eb7ab571996c2445aedff0b68bcb8e2e952",
       "agents/openai.yaml": "7b0f115d8587ad20b36e6a8bba9bb500d743e65afa0ea3dda4b9a201ed280077",
       "references/case-study.md": "d0bc272aa6011b9ab2e993c0582567c5376f2dfe57d310dbb3dc626f82f9da4b"
     },
+    "li-publish-pack": {
+      "SKILL.md": "2492b079cd2d3e87e83871ac4defbde28245752268320199e53aa758c1e01d38"
+    },
     "li-social-currency": {
-      "SKILL.md": "9b5e5ae92d89b4b19e89eebe50c5f4c859499ce31658318dcd17b33f74681284",
+      "SKILL.md": "6fbd5a2caa61743619c17e200bb3561196df0d416670e31efec834b98fa63afb",
       "agents/openai.yaml": "41588b7befbd0821245984e0a60caa3c3ed8eb361ed559ea31bec39307f8a377"
     },
     "li-stasis-topoi": {
-      "SKILL.md": "4198f2086acbacd82388a853630f0750f7042b20dba7376d47738c01c318fbf6",
+      "SKILL.md": "d6eca505772ccaa42fe4419ad5c8b027c5f59331806a549617845de10555a1e1",
       "agents/openai.yaml": "5c95237bc3a206162b2d466a5d8c96b3246e0bb3c1adceae654a995876596a5e",
       "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
     },
     "li-story-vlog": {
-      "SKILL.md": "ebcf64ba1c459922b29daf6272acff578c3dd23510d328d7138038c3bec90757",
+      "SKILL.md": "0e8a47ed1617431da5e40cc03e9b410843dde317fba11b5787f2b20832e4d3cf",
       "agents/openai.yaml": "3bde34ad16c077e6ba6652f34c1860f2934773d2a79cf122604e61e703ac5a57",
       "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0"
     },
     "li-update": {
-      "SKILL.md": "fc2f974cce62e771db134bc5a90821ea4036d86398a02698c79ddd2e42210ecb",
+      "SKILL.md": "2b62b5a2456a2e4c5252fd83a69e9925d0e9423ebb4f68ff1488cedc4e7049e7",
+      "scripts/update.py": "ff1f33e9af01a6526e9e5f5f760f83a4578762fbb474a2e3d318b493ba18cf18",
       "agents/openai.yaml": "bf10f4f62a687b7ac7bf0ccaa551fe4eeca9431c917bb6e6499c66408ecbcf92",
-      "references/legacy-installations.json": "419cf59904cf0da23fb7253b8b46d804fee02e626ede4f5c3e48e4d59d421bbc",
       "references/migration.md": "4bdcf6bdb5da2e355b0b78770c5f46775e88121b0a00858c6737caa8ae620b67",
-      "scripts/update.py": "ff1f33e9af01a6526e9e5f5f760f83a4578762fbb474a2e3d318b493ba18cf18"
+      "references/legacy-installations.json": "419cf59904cf0da23fb7253b8b46d804fee02e626ede4f5c3e48e4d59d421bbc"
     }
   }
 }
