@@ -7,11 +7,11 @@
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
     "li-angle-team": {
-      "SKILL.md": "d589378aefaed2e5333478509209d722cc0c5582832c2e685113695737709777",
+      "SKILL.md": "24afdb691e288b59eb9050e0a620de85e0553209c889a1744f3ebbfc194dd6b0",
       "agents/openai.yaml": "1f42b593124ee1dcc58bb8338f9acd73ab89124fe7c04be89c2b71db9f772a6d",
-      "references/connection-standard.md": "2d27d22d1f73451a68b3594da2d986264380666eeacce6b5f9814107300c42f5",
+      "references/connection-standard.md": "91f2fb08492c1c9b9330b5c113684daf0fdace89b761af83307f63298583d3f9",
       "references/lenses.md": "b63f1baacf1f0c4122411b859150a6016e3fe8a49b4768de1575ab3639401e4e",
-      "references/team-protocol.md": "8e108455f20978b301b65bb5c8b48fdc30b8f5e260f76f8fd1c202287a76ebb6",
+      "references/team-protocol.md": "d3319b1480e902f9596e8c4e96f6cb143309cbea64fb201c08b3786d061b8d8a",
       "references/theory-sources.md": "2819b475cfab85292166ccc713e881de655cffc82d3717caea1f1fe32e275d3c"
     },
     "li-account-positioning": {
