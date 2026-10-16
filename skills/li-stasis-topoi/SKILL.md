@@ -280,7 +280,7 @@ metadata:
 
 ```
 ✅ 第 3 步完成：主争点在「<哪一层>」，切口选「<用户选的组合>」
-👉 下一步是第 5 步：转发判断（li-social-currency 社交货币选题判断），回复「继续」开始（第 4 步「值不值得拍」建设中，暂时跳过）
+👉 下一步是第 4 步：值不值得拍（li-worth-shooting 值不值得拍），回复「继续」开始
 也可以：回到第 2 步补事实 ／ 换个角度方法再看（li-conflict-topics 找张力、li-public-issues 讲机制）
 ```
 <!-- pipeline:end -->

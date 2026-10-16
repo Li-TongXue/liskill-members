@@ -3,7 +3,7 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "150449d4b2997f0435606d4b384d8b66d8f5d299f23b17421495ca1bb8ed7d5a",
+      "SKILL.md": "581cf4d5d06e4cbd77a2a9bdf2b662da51f0dcd9b2d921da032a6f5797359d14",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
     "li-account-positioning": {
@@ -12,7 +12,7 @@
       "references/positioning-method.md": "e83f3796e570a61d599211e5b38309b3204a46f93af0005c506ac74354e94c5e"
     },
     "li-agenda-setting": {
-      "SKILL.md": "6bd50e40d9a9605aec4185c2cb16728929b8c0dbaf85130197dd535e16247033",
+      "SKILL.md": "1fea474075c6be15c10d9324c081b0445c41fa677ac54d8ba076889320110b9c",
       "agents/openai.yaml": "d9700f1dfdc44ddc4500bb4a5300714d2c53c5413b207de13479b826a2f5230f"
     },
     "li-script-form": {
@@ -112,7 +112,7 @@
       "references/city-data.csv": "bed204efd942cd838899d3fb4d4a604e9ce7dfa54fae85419c1d4f0cd0cd32bb"
     },
     "li-conflict-topics": {
-      "SKILL.md": "aab9b0fad475a232ced79ade074651502695fff36840cea0b9fec86404aee1e4",
+      "SKILL.md": "54d1a2761d778bb3f988b6b1c29fd76f62cfdcbc63d1cd9fdb9210f61b45593b",
       "agents/openai.yaml": "ea88db91722a4d1fda2e1a69dc50b19820297a37cf1b8cb9351a62d4bf82be77"
     },
     "li-eight-audits": {
@@ -120,11 +120,11 @@
       "agents/openai.yaml": "8476b70fcfe5a0a9f30f03288ea02afce54e65618083d0bc7d184ecc30b14bf4"
     },
     "li-material-mining": {
-      "SKILL.md": "91fc91d962ee0bdaf64823d7acbf8addfb684a7406f663fa326b93df60c74876",
+      "SKILL.md": "fe739ed89e6a46b5be33ce776e5c09ea571f6228b92923230dc7486f88c82866",
       "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
       "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
       "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
-      "references/li-method-sources.json": "2747a8173dcd3759e20fe5c5670df4ce45dc9243942d841d677d78d7e5c2c2eb",
+      "references/li-method-sources.json": "2d132154708182f0f647c5da4ff7d8fdba8fbc5065ea1854c8bdcf22b9785150",
       "references/public-issues.md": "c7552d750104c5cb79a10f353faea24cdd834c4953e937b60b7abeb628b28237",
       "references/social-currency.md": "f18528c1be4c6837963fb08e55be80584708742395c78f35c4235cfa56cac2f0",
       "references/sources.md": "5a9f2ef125d28cb55317377192b4e7900b49e4af4080e6df296e4bbe1bec052c",
@@ -133,21 +133,26 @@
       "references/stasis-topoi.md": "ff0254b3e4a7e8e65ffb8503d5af53b68303c20c7763d9ddbe36cda8caad2c3e"
     },
     "li-public-issues": {
-      "SKILL.md": "4c1bb37ae3272b07b7a998c11e519ce13576135df0775835e5a0c449ec404528",
+      "SKILL.md": "a15cebedcf5ec3edc39afed1a16644cfde607de76b24cc9c8b5439251ba14ace",
       "agents/openai.yaml": "7b0f115d8587ad20b36e6a8bba9bb500d743e65afa0ea3dda4b9a201ed280077",
       "references/case-study.md": "d0bc272aa6011b9ab2e993c0582567c5376f2dfe57d310dbb3dc626f82f9da4b"
     },
     "li-topic-ladder": {
-      "SKILL.md": "3b9acd16a2a4334bf917fce5a14b4d4ecd1493be635f2861d53f30e5dbc96c23",
+      "SKILL.md": "757e00331557127a1b9e8c0fd8b67aadbf0aa0e5ba3dd2d6a49422eb6f70c704",
       "agents/openai.yaml": "ce5ffa5cd693cf34e2ec7b357fc476ff8742ef83f6e81b8010fec7ea40ac96fb",
       "references/theory-sources.md": "dec8228255a439474696a9078de641ecd8fc4738ed20b67947bde849da1f7895"
+    },
+    "li-worth-shooting": {
+      "SKILL.md": "9d61a6c99d3ed53cf23f78a535dee90fa4c4adab6e230dea0f85cdea1b19686e",
+      "agents/openai.yaml": "43decb9180b7641ff2e06bb23f39ddf1c62ae0cf2d3f5763d9f6555def324808",
+      "references/criteria-sources.md": "bf730665cbec7eb223dc75b0cee543ee1216397b77883cd5515337922b36d7e3"
     },
     "li-social-currency": {
       "SKILL.md": "da74540a0e512202b1eea6f22bbc8ec3755258276d9e989a774b207a9d6ede2b",
       "agents/openai.yaml": "41588b7befbd0821245984e0a60caa3c3ed8eb361ed559ea31bec39307f8a377"
     },
     "li-stasis-topoi": {
-      "SKILL.md": "8cb04940a576896598ea01e929fd8b40452da92f95ce029c20281a6235f5ff1d",
+      "SKILL.md": "04cdb9a8a2bb1cfd5ebc360033c4cb733e51572851fc67b38665bb26cf70aee1",
       "agents/openai.yaml": "5c95237bc3a206162b2d466a5d8c96b3246e0bb3c1adceae654a995876596a5e",
       "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
     },

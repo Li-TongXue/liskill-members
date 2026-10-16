@@ -4,7 +4,7 @@
     "sources": [
       {
         "path": "skills/li-stasis-topoi/SKILL.md",
-        "sha256": "8cb04940a576896598ea01e929fd8b40452da92f95ce029c20281a6235f5ff1d"
+        "sha256": "04cdb9a8a2bb1cfd5ebc360033c4cb733e51572851fc67b38665bb26cf70aee1"
       },
       {
         "path": "skills/li-stasis-topoi/references/method.md",
@@ -17,7 +17,7 @@
     "sources": [
       {
         "path": "skills/li-conflict-topics/SKILL.md",
-        "sha256": "aab9b0fad475a232ced79ade074651502695fff36840cea0b9fec86404aee1e4"
+        "sha256": "54d1a2761d778bb3f988b6b1c29fd76f62cfdcbc63d1cd9fdb9210f61b45593b"
       }
     ]
   },
@@ -26,7 +26,7 @@
     "sources": [
       {
         "path": "skills/li-public-issues/SKILL.md",
-        "sha256": "4c1bb37ae3272b07b7a998c11e519ce13576135df0775835e5a0c449ec404528"
+        "sha256": "a15cebedcf5ec3edc39afed1a16644cfde607de76b24cc9c8b5439251ba14ace"
       },
       {
         "path": "skills/li-public-issues/references/case-study.md",
