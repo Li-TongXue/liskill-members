@@ -47,6 +47,11 @@
       "agents/openai.yaml": "ce5ffa5cd693cf34e2ec7b357fc476ff8742ef83f6e81b8010fec7ea40ac96fb",
       "references/theory-sources.md": "dec8228255a439474696a9078de641ecd8fc4738ed20b67947bde849da1f7895"
     },
+    "li-worth-shooting": {
+      "SKILL.md": "9d61a6c99d3ed53cf23f78a535dee90fa4c4adab6e230dea0f85cdea1b19686e",
+      "agents/openai.yaml": "43decb9180b7641ff2e06bb23f39ddf1c62ae0cf2d3f5763d9f6555def324808",
+      "references/criteria-sources.md": "bf730665cbec7eb223dc75b0cee543ee1216397b77883cd5515337922b36d7e3"
+    },
     "li-publish-pack": {
       "SKILL.md": "2492b079cd2d3e87e83871ac4defbde28245752268320199e53aa758c1e01d38"
     },
