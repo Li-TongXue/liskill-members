@@ -1,0 +1,4 @@
+interface:
+  display_name: "li-script-form（脚本形式）"
+  short_description: "为选定选题判断内容类型，从结构库推荐 2–3 个结构，并列出所选结构的素材缺口。"
+  default_prompt: "使用 $li-script-form，根据我提供的材料完成当前任务。"

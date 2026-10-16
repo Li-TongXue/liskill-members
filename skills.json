@@ -20,6 +20,33 @@
       "completion_upgrade_status": "已满足：已有材料收集、正反向分析流程及结果模板。"
     },
     {
+      "name": "li-script-form",
+      "display_name": "脚本形式",
+      "kind": "business",
+      "description": "脚本形式：为已经选定的选题判断内容类型，从李同学的短视频结构库里推荐 2–3 个结构，由用户选定后列出这个结构需要的素材和缺口。用户有了选题、不知道该用什么形式或结构来拍，或者问「这个题怎么拍」「用哪个结构」时使用；还没有选题时先回到选题步骤，已经有成稿时不使用。",
+      "completion_level": "2",
+      "completion_reason": "内置四类内容判断、25 个结构的随包结构库与索引、结构推荐和素材缺口清单流程。",
+      "completion_upgrade_status": "已满足：内置四类内容判断、25 个结构的随包结构库与索引、结构推荐和素材缺口清单流程。"
+    },
+    {
+      "name": "li-script-opening",
+      "display_name": "开头",
+      "kind": "business",
+      "description": "开头：按已选定结构的开头规则，用用户的真实素材写 3 个不同勾法的视频开头，由用户选定一个。用户已经选好结构、要先写开头，或者问「开头怎么写」「前几秒怎么勾住人」时使用；还没选结构时先回到脚本形式；只想要发布标题或封面文案时不使用。",
+      "completion_level": "2",
+      "completion_reason": "内置随包结构库的开头规则、三种勾法写作流程、素材占位规则和选定确认。",
+      "completion_upgrade_status": "已满足：内置随包结构库的开头规则、三种勾法写作流程、素材占位规则和选定确认。"
+    },
+    {
+      "name": "li-script-writing",
+      "display_name": "完整脚本",
+      "kind": "business",
+      "description": "完整脚本：按已选定的结构和开头，用用户的真实素材逐段写出完整的短视频口播稿，缺素材的地方写成待补占位而不代编，附拍摄提示和自检。用户已经选好结构和开头、要写全稿，或者说「帮我把稿子写出来」时使用；还没选结构时先回到脚本形式；已经有成稿只需要审核时不使用。",
+      "completion_level": "2",
+      "completion_reason": "内置随包结构库的信息点模板、素材对照与占位规则、全稿写作流程、拍摄提示和自检。",
+      "completion_upgrade_status": "已满足：内置随包结构库的信息点模板、素材对照与占位规则、全稿写作流程、拍摄提示和自检。"
+    },
+    {
       "name": "li-city-impressions",
       "display_name": "城市印象文案生成",
       "kind": "business",
