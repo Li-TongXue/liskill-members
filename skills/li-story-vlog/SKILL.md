@@ -1,6 +1,6 @@
 ---
 name: li-story-vlog 故事事件「Vlog」写作
-description: "故事事件「Vlog」写作：将真实经历或人物关系写成克制、留白的 Vlog 旁白，也可按此文风修改已有稿件。用户要求故事 Vlog、事件旁白或克制叙事时使用；不用于强观点口播、教程或强转化带货。"
+description: "李同学「故事事件「Vlog」写作」：将真实经历或人物关系写成克制、留白的 Vlog 旁白，也可按此文风修改已有稿件。用户要求故事 Vlog、事件旁白或克制叙事时使用；不用于强观点口播、教程或强转化带货。"
 metadata:
   collection: "liskill-members"
   kind: "business"

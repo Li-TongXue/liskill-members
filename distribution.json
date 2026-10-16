@@ -3,29 +3,29 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "271989dac47b71b049d8db5051ffde9bc4a422d19b956dbc1d93c9db2fbc2d1b",
+      "SKILL.md": "0fffbe20f295ff4b57fa526dad4a9e0748f9cbd3ccefef9c24606e8dfdce0c5c",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
     "li-agenda-setting": {
-      "SKILL.md": "4fa562d01ab2736655df627cf18d704a6df783895746f0e7d603b0a359183719",
+      "SKILL.md": "6e30ad4acde92f48c26df1d55ab4df547d0fc0fa05da578c259d9d9c436d8acc",
       "agents/openai.yaml": "d9700f1dfdc44ddc4500bb4a5300714d2c53c5413b207de13479b826a2f5230f"
     },
     "li-city-impressions": {
-      "SKILL.md": "b55801a87b150b34b249d40e7695f704f0b0057d02e0dfaa643dfdff838a55e9",
+      "SKILL.md": "b268be29115218614b673ccc01fccd8dc39275eba9e8c00ecd25a9a52699b634",
       "agents/openai.yaml": "c822c62c17da0702f663575a9d57cf432ee7f3d729ddd6a866b8cfec3674669e",
       "references/case-study.md": "6f633a27b10904a22aa804d24798c596569995a146378afb67901e77608c9097",
       "references/city-data.csv": "bed204efd942cd838899d3fb4d4a604e9ce7dfa54fae85419c1d4f0cd0cd32bb"
     },
     "li-conflict-topics": {
-      "SKILL.md": "dce21c8d4f64a66cbc6affffc568521ae78d7f696fd7efb13215298012fb60e1",
+      "SKILL.md": "3fd75657fbb5f0ba7414d9a4e37e69cad8fd8e86b2908a50615263f6feb217d3",
       "agents/openai.yaml": "ea88db91722a4d1fda2e1a69dc50b19820297a37cf1b8cb9351a62d4bf82be77"
     },
     "li-eight-audits": {
-      "SKILL.md": "350306363d2057d1d1201b2c7ac2739223bfbddf5db4f6c3bbcfaed8913c21fc",
+      "SKILL.md": "750c0481fbb16b0aec25aa400843d2e69f4bb3625feff3950096fcd1fbce980b",
       "agents/openai.yaml": "8476b70fcfe5a0a9f30f03288ea02afce54e65618083d0bc7d184ecc30b14bf4"
     },
     "li-material-mining": {
-      "SKILL.md": "42ccfe0b764498b1480b411e20962599e79daa971d45cefeeefe20ec295fe4c0",
+      "SKILL.md": "1eeab8610cf0c72cc65ef234eee1e42c9a1ede0b00a63297a70fbdc2acfef556",
       "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
       "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
       "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
@@ -38,26 +38,26 @@
       "references/stasis-topoi.md": "607092566419a2b39e91a8b58df1c96511cf2a9174adbe3ac26ce4ba580aac71"
     },
     "li-public-issues": {
-      "SKILL.md": "05b1d68adda015f356ddbc1699309eb7ab571996c2445aedff0b68bcb8e2e952",
+      "SKILL.md": "d82494108a5e227fa13e34c431840d72f0dd4dba36ea366d06cf6bbc41d30ae2",
       "agents/openai.yaml": "7b0f115d8587ad20b36e6a8bba9bb500d743e65afa0ea3dda4b9a201ed280077",
       "references/case-study.md": "d0bc272aa6011b9ab2e993c0582567c5376f2dfe57d310dbb3dc626f82f9da4b"
     },
     "li-social-currency": {
-      "SKILL.md": "6fbd5a2caa61743619c17e200bb3561196df0d416670e31efec834b98fa63afb",
+      "SKILL.md": "7972552db21c1febe64919c3e40a77d3a70725d3d4a459516eaa3d9e546ddd2f",
       "agents/openai.yaml": "41588b7befbd0821245984e0a60caa3c3ed8eb361ed559ea31bec39307f8a377"
     },
     "li-stasis-topos": {
-      "SKILL.md": "e68ffc0802f3904b132b081b3b75c0370840360f1be471ec9f5c9facf1c12c95",
+      "SKILL.md": "3ed5ae176f943e9955bc7ddf8776b84c3f64de88a98f7698bd96b8c4dc146902",
       "agents/openai.yaml": "5c95237bc3a206162b2d466a5d8c96b3246e0bb3c1adceae654a995876596a5e",
       "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
     },
     "li-story-vlog": {
-      "SKILL.md": "7dc0d8ebd347f13b502a163ca35354dff9c003258e1f7a2290fe2336ad26e225",
+      "SKILL.md": "88e1f669e3a0d996d5db410f6f1f7f19c9628dc7fc54269e4be9f3d1ccef093b",
       "agents/openai.yaml": "3bde34ad16c077e6ba6652f34c1860f2934773d2a79cf122604e61e703ac5a57",
       "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0"
     },
     "li-publish-pack": {
-      "SKILL.md": "2492b079cd2d3e87e83871ac4defbde28245752268320199e53aa758c1e01d38"
+      "SKILL.md": "ceea292e53402c924ca1c305dcc28c58506cb08b50975ee2bfd8b03b791a859b"
     },
     "li-update": {
       "SKILL.md": "0f855b98fe8d9f656d2ed8189ccc2c1879797ce4b0889ca3a96e25a171c5a1f9",
