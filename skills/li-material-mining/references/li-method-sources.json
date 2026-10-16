@@ -1,13 +1,13 @@
 [
   {
-    "file": "stasis-topoi.md",
+    "file": "stasis-topos.md",
     "sources": [
       {
-        "path": "skills/li-stasis-topoi/SKILL.md",
+        "path": "skills/li-stasis-topos/SKILL.md",
         "sha256": "4198f2086acbacd82388a853630f0750f7042b20dba7376d47738c01c318fbf6"
       },
       {
-        "path": "skills/li-stasis-topoi/references/method.md",
+        "path": "skills/li-stasis-topos/references/method.md",
         "sha256": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
       }
     ]

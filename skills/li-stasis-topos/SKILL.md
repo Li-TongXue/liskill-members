@@ -1,5 +1,5 @@
 ---
-name: li-stasis-topoi 修辞学选题法
+name: li-stasis-topos 修辞学选题法
 description: "修辞学选题法：从已有事实和不同解释中识别核心争点，再选择因果、定义、对比等切口形成选题。用户想弄清在争什么或选择争议内容角度时使用；事实尚不清楚时先补材料。"
 metadata:
   collection: "liskill-members"

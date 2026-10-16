@@ -4,7 +4,7 @@
 
 | 参考 | 来源 | 维护方式 |
 |---|---|---|
-| stasis-topoi.md | 本仓库 li-stasis-topoi 的正文和方法参考 | tools/build_references.py 生成，校验与真源一致 |
+| stasis-topos.md | 本仓库 li-stasis-topos 的正文和方法参考 | tools/build_references.py 生成，校验与真源一致 |
 | conflict.md | 本仓库 li-conflict-topics | 同上 |
 | public-issues.md | 本仓库 li-public-issues 及其案例 | 同上 |
 | social-currency.md | 本仓库 li-social-currency | 同上 |

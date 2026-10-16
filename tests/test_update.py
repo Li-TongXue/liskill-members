@@ -60,7 +60,7 @@ class UpdateTests(unittest.TestCase):
         import re
         folder=self.base/'standalone'
         shutil.copytree(self.source/'skills/li-material-mining',folder)
-        self.assertFalse((folder.parent/'li-stasis-topoi').exists())
+        self.assertFalse((folder.parent/'li-stasis-topos').exists())
         for p in folder.rglob('*.md'):
             for ref in re.findall(r'\]\(([^)]+)\)',p.read_text()):
                 if ref.startswith(('http','#')):continue

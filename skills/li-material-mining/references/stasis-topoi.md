@@ -3,9 +3,9 @@
 由仓库内方法正文生成，用于独立安装。这里的输出模板供判断参考，最终交付服从素材挖掘的格式。
 
 
-<!-- source: skills/li-stasis-topoi/SKILL.md -->
+<!-- source: skills/li-stasis-topos/SKILL.md -->
 
-# li-stasis-topoi修辞学选题法
+# li-stasis-topos修辞学选题法
 
 ## 这是什么
 
@@ -254,10 +254,10 @@
 
 ## 一句话定义
 
-**li-stasis-topoi修辞学选题法，不是只帮用户把一个争议事实拆成四层，而是进一步帮用户判断：这个题到底该争哪一层、该从哪个 Topos 切，哪个组合最适合传播。**
+**li-stasis-topos修辞学选题法，不是只帮用户把一个争议事实拆成四层，而是进一步帮用户判断：这个题到底该争哪一层、该从哪个 Topos 切，哪个组合最适合传播。**
 
 
-<!-- source: skills/li-stasis-topoi/references/method.md -->
+<!-- source: skills/li-stasis-topos/references/method.md -->
 
 # 争点与切口参考
 

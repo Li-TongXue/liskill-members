@@ -239,7 +239,7 @@ metadata:
 
 | 方法 | 管什么 | 正文位置 |
 |---|---|---|
-| 争点（李同学版） | 定争点并选择因果、对比等切口 | [争点与切口](references/stasis-topoi.md) |
+| 争点（李同学版） | 定争点并选择因果、对比等切口 | [争点与切口](references/stasis-topos.md) |
 | 争点角度（dbs 版） | 用事实和证据筛选适合讲述的争点 | [争点角度](references/stasis-angle.md) |
 | 冲突 | 找到有依据的张力并推进成题 | [冲突性选题](references/conflict.md) |
 | 公共问题 | 检查个案能否推到共同处境与机制 | [公共问题升维](references/public-issues.md) |

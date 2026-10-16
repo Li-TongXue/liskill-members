@@ -104,7 +104,7 @@ Windows 安装 Python 后可将 `python3` 换成 `py -3`。更新器只维护官
 | 1 | 入口 | `li` |   Li 主入口   | 为 liskill 选择适合当前任务的技能。用户明确调用 li、不知道该用哪个 Li 技能，或一个任务需要多项 Li 能力配合时使用；已明确匹配单个业务技能时直接使用该技能。 |
 | 2 | 素材 | `li-material-mining` |   素材挖掘   | 通过逐轮追问，从用户的工作和日常经历中挖掘真实的短视频素材，并形成可拍的选题。用户不知道拍什么、觉得日常没有内容，或希望通过聊天寻找素材时使用；已有明确素材、只需要改稿时不使用。 |
 | 3 | 选题 | `li-conflict-topics` |   冲突性选题   | 判断普通话题是否适合以冲突展开，找出主冲突并形成不同力度的选题。用户觉得话题太平、想找张力或把话题推进成题时使用；不强推没有真实分歧的教程和通知。 |
-| 4 | 选题 | `li-stasis-topoi` |   修辞学选题法   | 从已有事实和不同解释中识别核心争点，再选择因果、定义、对比等切口形成选题。用户想弄清在争什么或选择争议内容角度时使用；事实尚不清楚时先补材料。 |
+| 4 | 选题 | `li-stasis-topos` |   修辞学选题法   | 从已有事实和不同解释中识别核心争点，再选择因果、定义、对比等切口形成选题。用户想弄清在争什么或选择争议内容角度时使用；事实尚不清楚时先补材料。 |
 | 5 | 选题 | `li-public-issues` | 公共问题升维 | 检验具体事件或个人观察是否具有公共性，用事实和机制假设形成值得讨论的公共问题。用户觉得现象不对劲、想讲清背后机制或让更多人理解其影响时使用；证据不足时不强行扩大结论。 |
 | 6 | 选题 | `li-social-currency` | 社交货币选题判断 | 从观众愿意转给谁、转发如何影响自身形象出发，判断和改造选题的分享性。用户明确关心转发、分享或社交货币时使用；不将转发性等同于整体拍摄价值、获客价值或播放量预测。 |
 | 7 | 内容定位 | `li-agenda-setting` | 议程设置内容定位 | 分析一组内容会让观众形成什么稳定印象，并给出内容支柱和最小修正建议。用户检查账号长期印象或希望反推内容定位时使用；不用于单条稿件的表达润色。 |
@@ -129,7 +129,7 @@ Windows 安装 Python 后可将 `python3` 换成 `py -3`。更新器只维护官
 把下面这段话发给 Agent，让它帮你排查修复：
 
 > 我电脑上安装的 liskill 技能（来源 https://gitee.com/LTX12/liskill-members.git ）在 Agent 里能识别，但可视化技能列表里看不到。请帮我排查并修复：
-> 1. 先查看技能安装目录里有没有这些技能：`~/.claude/skills` 和 `~/.agents/skills` 两个目录下，检查 li、li-agenda-setting、li-city-impressions、li-conflict-topics、li-eight-audits、li-material-mining、li-public-issues、li-social-currency、li-stasis-topoi、li-story-vlog、li-publish-pack、li-update 这 12 个小写目录是否存在
+> 1. 先查看技能安装目录里有没有这些技能：`~/.claude/skills` 和 `~/.agents/skills` 两个目录下，检查 li、li-agenda-setting、li-city-impressions、li-conflict-topics、li-eight-audits、li-material-mining、li-public-issues、li-social-currency、li-stasis-topos、li-story-vlog、li-publish-pack、li-update 这 12 个小写目录是否存在
 > 2. 逐个检查这些目录是不是符号链接：如果是，用 `readlink` 看链接指向的目标路径是否存在；如果目标不存在（悬空链接）或者目录缺失，重新执行安装命令修复：`npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all`
 > 3. 重装后再次确认 12 个小写目录都在，且每个目录里有完整的 SKILL.md（文件非空、能读取，文件头有 name 字段）
 > 4. 如果重装后可视化列表还是看不到，检查有没有旧的大写残留目录（Li、Li-Eight-Audits 等），有就删掉

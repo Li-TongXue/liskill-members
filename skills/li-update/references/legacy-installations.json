@@ -92,11 +92,11 @@
       }
     },
     {
-      "name": "li-stasis-topoi",
+      "name": "li-stasis-topos",
       "aliases": [
         "Li-Stasis-Topoi",
         "Li-Stasis-Topoi 修辞学选题法",
-        "li-stasis-topoi"
+        "li-stasis-topos"
       ],
       "files": {
         "SKILL.md": "3ddf265f933e19cda247c1ba58f9181f40f69821ccaf458482981bd5a13ceaef"

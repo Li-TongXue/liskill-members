@@ -7,7 +7,7 @@ import json
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / 'skills/li-material-mining/references'
 SOURCES = {
-    'stasis-topoi.md': ['skills/li-stasis-topoi/SKILL.md', 'skills/li-stasis-topoi/references/method.md'],
+    'stasis-topos.md': ['skills/li-stasis-topos/SKILL.md', 'skills/li-stasis-topos/references/method.md'],
     'conflict.md': ['skills/li-conflict-topics/SKILL.md'],
     'public-issues.md': ['skills/li-public-issues/SKILL.md', 'skills/li-public-issues/references/case-study.md'],
     'social-currency.md': ['skills/li-social-currency/SKILL.md'],

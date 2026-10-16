@@ -73,7 +73,7 @@
       "completion_upgrade_status": "已满足：内置分享性判断、三个改造机制和不同输入的输出模板。"
     },
     {
-      "name": "li-stasis-topoi",
+      "name": "li-stasis-topos",
       "display_name": "修辞学选题法",
       "kind": "business",
       "description": "从已有事实和不同解释中识别核心争点，再选择因果、定义、对比等切口形成选题。用户想弄清在争什么或选择争议内容角度时使用；事实尚不清楚时先补材料。",
