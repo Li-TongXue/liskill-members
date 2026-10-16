@@ -64,6 +64,15 @@
       "completion_upgrade_status": "已满足：已有事实收集、公共性筛选、假设检验、确认与输出流程。"
     },
     {
+      "name": "li-topic-ladder",
+      "display_name": "话题扩圈阶梯",
+      "kind": "business",
+      "description": "话题扩圈阶梯：用抽象阶梯和框架理论，把一个具体素材、经历、产品或观点逐层推到更大的话题和更宽的受众层级，同时保留让人先注意的具体细节。用户觉得题目太小众、只有同行会看、想让圈外人也关心或想把内容推到更高流量层级时使用；不承诺播放量，证据撑不住的层级不硬推。",
+      "completion_level": "2",
+      "completion_reason": "内置锚点账本、四层抽象阶梯、四功能换框、硬门槛与层级地图模板。",
+      "completion_upgrade_status": "已满足：内置锚点账本、四层抽象阶梯、四功能换框、硬门槛与层级地图模板。"
+    },
+    {
       "name": "li-social-currency",
       "display_name": "社交货币选题判断",
       "kind": "business",

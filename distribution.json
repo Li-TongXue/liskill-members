@@ -3,7 +3,7 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "a55c734f6641a55c23db42f5d4624ea59c9e23785bf26c05fcba69d7d7542699",
+      "SKILL.md": "35d190b6de71b97b0f1253001674351b438b94f77dd622fb4b7448edd38fc5be",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
     "li-agenda-setting": {
@@ -41,6 +41,11 @@
       "SKILL.md": "05b1d68adda015f356ddbc1699309eb7ab571996c2445aedff0b68bcb8e2e952",
       "agents/openai.yaml": "7b0f115d8587ad20b36e6a8bba9bb500d743e65afa0ea3dda4b9a201ed280077",
       "references/case-study.md": "d0bc272aa6011b9ab2e993c0582567c5376f2dfe57d310dbb3dc626f82f9da4b"
+    },
+    "li-topic-ladder": {
+      "SKILL.md": "c5401054d2775a9c92efdc7a8cf9d8b40fd3226d369b52dc12321b7ae5510fe5",
+      "agents/openai.yaml": "ce5ffa5cd693cf34e2ec7b357fc476ff8742ef83f6e81b8010fec7ea40ac96fb",
+      "references/theory-sources.md": "dec8228255a439474696a9078de641ecd8fc4738ed20b67947bde849da1f7895"
     },
     "li-publish-pack": {
       "SKILL.md": "2492b079cd2d3e87e83871ac4defbde28245752268320199e53aa758c1e01d38"
