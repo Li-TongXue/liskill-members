@@ -3,8 +3,11 @@
 from pathlib import Path
 import hashlib
 import json
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
+# 内容卡与「下一步」衔接只服务于独立技能的流水线，不进入素材挖掘的方法快照。
+PIPELINE = re.compile(r'\n*(?:---\n+)?<!-- pipeline:start -->.*?<!-- pipeline:end -->\n?', re.S)
 DEST = ROOT / 'skills/li-material-mining/references'
 SOURCES = {
     'stasis-topoi.md': ['skills/li-stasis-topoi/SKILL.md', 'skills/li-stasis-topoi/references/method.md'],
@@ -22,6 +25,7 @@ def expected():
             text = (ROOT / source).read_text(encoding='utf-8')
             if text.startswith('---\n'):
                 text = text.split('---', 2)[2].lstrip()
+            text = PIPELINE.sub('\n', text)
             text = text.replace('(references/method.md)', '(#争点与切口参考)').replace('`references/case-study.md`', '下方的完整案例')
             parts.append(f'\n<!-- source: {source} -->\n\n{text}')
         result[target] = '\n'.join(parts).rstrip() + '\n'
