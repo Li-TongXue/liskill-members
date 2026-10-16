@@ -6,6 +6,11 @@
       "SKILL.md": "150449d4b2997f0435606d4b384d8b66d8f5d299f23b17421495ca1bb8ed7d5a",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
+    "li-account-positioning": {
+      "SKILL.md": "4bab7c90c87173a761e2749c411288ce8b40e8186648bf987f47fd63ef08cb23",
+      "agents/openai.yaml": "1f8ecabd26a53fade8e256089bcc5e4078a0730716a88dffa90b00fc60e8bf8d",
+      "references/positioning-method.md": "e83f3796e570a61d599211e5b38309b3204a46f93af0005c506ac74354e94c5e"
+    },
     "li-agenda-setting": {
       "SKILL.md": "6bd50e40d9a9605aec4185c2cb16728929b8c0dbaf85130197dd535e16247033",
       "agents/openai.yaml": "d9700f1dfdc44ddc4500bb4a5300714d2c53c5413b207de13479b826a2f5230f"
