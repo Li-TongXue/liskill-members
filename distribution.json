@@ -3,11 +3,11 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "581cf4d5d06e4cbd77a2a9bdf2b662da51f0dcd9b2d921da032a6f5797359d14",
+      "SKILL.md": "7d51a729c044cf9f1f2b510cc05f1edcae5f5aa269ac23b8a700657b9f116f79",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
     "li-account-positioning": {
-      "SKILL.md": "4bab7c90c87173a761e2749c411288ce8b40e8186648bf987f47fd63ef08cb23",
+      "SKILL.md": "8827874db5f3fa8af8db97a356172dbfff9d22e28bf270c63473ff492f1110fa",
       "agents/openai.yaml": "1f8ecabd26a53fade8e256089bcc5e4078a0730716a88dffa90b00fc60e8bf8d",
       "references/positioning-method.md": "e83f3796e570a61d599211e5b38309b3204a46f93af0005c506ac74354e94c5e"
     },
@@ -16,7 +16,7 @@
       "agents/openai.yaml": "d9700f1dfdc44ddc4500bb4a5300714d2c53c5413b207de13479b826a2f5230f"
     },
     "li-script-form": {
-      "SKILL.md": "81451d799ec6afb4f072fde19d863fa7076be23186acd8c310e2ce20d7b24d93",
+      "SKILL.md": "ce53607ffbb826e50751e7f90a8d8ecc90ef37c5c1c5adc29949b866068383c3",
       "agents/openai.yaml": "3f362e2b9882cb0a4768b4ec7ad819110dbb20ad6de3b49438bbb1fd3daa4842",
       "references/structure-index.md": "0c22b015a08650fdc5a96b6aa054b9ab8b28ff5a255acb33e552c0e1a95fdd3c",
       "references/structures/B2B型-工厂参观.md": "d8f902e3d844f83e2ae7b4de3d212346879c5c82cf4f655e165b6caec5806fe8",
@@ -46,7 +46,7 @@
       "references/structures/高敏野心家-标准失准破局.md": "bd8f35ec32b0a2fec477f5cfa1f5ca28261a078deb74414c371093b3688357fa"
     },
     "li-script-opening": {
-      "SKILL.md": "b84f1c151249cae195b2067f426027612d5fa76d3afaa2ffd24911d32d35a847",
+      "SKILL.md": "ac0feb3d143a0f6d98f55592e54c35751a03390311f3ee0bb76871d24496170a",
       "agents/openai.yaml": "038e23ad0a4c94b18f90f05381787752bce94bb8ddf2a0911f8359b19fa33252",
       "references/structure-index.md": "0c22b015a08650fdc5a96b6aa054b9ab8b28ff5a255acb33e552c0e1a95fdd3c",
       "references/structures/B2B型-工厂参观.md": "d8f902e3d844f83e2ae7b4de3d212346879c5c82cf4f655e165b6caec5806fe8",
@@ -76,7 +76,7 @@
       "references/structures/高敏野心家-标准失准破局.md": "bd8f35ec32b0a2fec477f5cfa1f5ca28261a078deb74414c371093b3688357fa"
     },
     "li-script-writing": {
-      "SKILL.md": "58620a1f4597e6cfa7198f9a9854db4de6f4d89d419373add880af9b8a490e89",
+      "SKILL.md": "625ea8d99459cbb04d7c93d8a05a5705bf7de8ccfbfa7e44b2f5af4718c65be1",
       "agents/openai.yaml": "aacd47b17d03ada32c68ee8a811a53ba5b5bdecb2daef8a1b28b31af233d5026",
       "references/structure-index.md": "0c22b015a08650fdc5a96b6aa054b9ab8b28ff5a255acb33e552c0e1a95fdd3c",
       "references/structures/B2B型-工厂参观.md": "d8f902e3d844f83e2ae7b4de3d212346879c5c82cf4f655e165b6caec5806fe8",
@@ -116,11 +116,11 @@
       "agents/openai.yaml": "ea88db91722a4d1fda2e1a69dc50b19820297a37cf1b8cb9351a62d4bf82be77"
     },
     "li-eight-audits": {
-      "SKILL.md": "ec1a9f57e971005ef6eeb40c5edf5816398f0143f7a057515fc570a2a70d78e9",
+      "SKILL.md": "f069bcf852b03bf45becde19b66cfa257192b0fa9d973f74757ec0fe2f088435",
       "agents/openai.yaml": "8476b70fcfe5a0a9f30f03288ea02afce54e65618083d0bc7d184ecc30b14bf4"
     },
     "li-material-mining": {
-      "SKILL.md": "fe739ed89e6a46b5be33ce776e5c09ea571f6228b92923230dc7486f88c82866",
+      "SKILL.md": "7beab0b7408c932a1426a60ca310f8d30b46c0674e4f1b06e08e1b1419a5e671",
       "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
       "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
       "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
