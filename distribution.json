@@ -3,8 +3,16 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "7d51a729c044cf9f1f2b510cc05f1edcae5f5aa269ac23b8a700657b9f116f79",
+      "SKILL.md": "791d33700fa13b1168725784bf43eb56bad03f9b950f8028b0bd5688653224ca",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
+    },
+    "li-angle-team": {
+      "SKILL.md": "d589378aefaed2e5333478509209d722cc0c5582832c2e685113695737709777",
+      "agents/openai.yaml": "1f42b593124ee1dcc58bb8338f9acd73ab89124fe7c04be89c2b71db9f772a6d",
+      "references/connection-standard.md": "2d27d22d1f73451a68b3594da2d986264380666eeacce6b5f9814107300c42f5",
+      "references/lenses.md": "b63f1baacf1f0c4122411b859150a6016e3fe8a49b4768de1575ab3639401e4e",
+      "references/team-protocol.md": "8e108455f20978b301b65bb5c8b48fdc30b8f5e260f76f8fd1c202287a76ebb6",
+      "references/theory-sources.md": "2819b475cfab85292166ccc713e881de655cffc82d3717caea1f1fe32e275d3c"
     },
     "li-account-positioning": {
       "SKILL.md": "8827874db5f3fa8af8db97a356172dbfff9d22e28bf270c63473ff492f1110fa",
@@ -120,7 +128,7 @@
       "agents/openai.yaml": "8476b70fcfe5a0a9f30f03288ea02afce54e65618083d0bc7d184ecc30b14bf4"
     },
     "li-material-mining": {
-      "SKILL.md": "7beab0b7408c932a1426a60ca310f8d30b46c0674e4f1b06e08e1b1419a5e671",
+      "SKILL.md": "8f019eeebd86eb29b31a375f4296ea01129ed8122c0ab644958c67a666885703",
       "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
       "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
       "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",

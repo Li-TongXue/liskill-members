@@ -374,7 +374,7 @@ metadata:
 
 ```
 ✅ 第 2 步完成：素材「<一句话素材>」，选定选题「<用户选的选题>」
-👉 下一步是第 3 步：选题角度（按选题的情况挑一个：太平 → li-conflict-topics，在争什么 → li-stasis-topoi，现象不对劲 → li-public-issues，太小众 → li-topic-ladder），回复「继续」开始
+👉 下一步是第 3 步：选题角度（按选题的情况挑一个：还没方向、想多看几种角度 → li-angle-team，太平 → li-conflict-topics，在争什么 → li-stasis-topoi，现象不对劲 → li-public-issues，太小众 → li-topic-ladder），回复「继续」开始
 也可以：选题已经满意 → 跳到第 4 步值不值得拍（li-worth-shooting）／ 回到第 2 步接着挖下一条
 ```
 <!-- pipeline:end -->

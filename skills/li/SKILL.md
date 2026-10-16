@@ -57,7 +57,7 @@ metadata:
 |---|---|---|---|---|
 | 1 | 账号定位 | `li-account-positioning` 账号定位（从零定位）；已有一批内容时用 `li-agenda-setting` 议程设置内容定位检查印象 | 可用 | 卡头「账号定位」 |
 | 2 | 素材 | `li-material-mining` 素材挖掘 | 可用 | 素材（选定选题后也写 选题与角度） |
-| 3 | 选题角度 | `li-conflict-topics` / `li-stasis-topoi` / `li-public-issues` / `li-topic-ladder` | 可用 | 选题与角度（扩圈另写 受众） |
+| 3 | 选题角度 | 发散：`li-angle-team`；收敛：`li-conflict-topics` / `li-stasis-topoi` / `li-public-issues` / `li-topic-ladder` | 可用 | 选题与角度（多视角、扩圈另写 受众） |
 | 4 | 值不值得拍 | `li-worth-shooting` 值不值得拍 | 可用：结合账号定位判断拍、换个角度拍还是不拍；只想知道能覆盖多少人时回第 3 步用 `li-topic-ladder`；不把转发性当成拍摄价值 | 值不值得拍 |
 | 5 | 转发 | `li-social-currency` 社交货币选题判断 | 可用 | 转发判断 |
 | 6 | 脚本形式 | `li-script-form` 脚本形式 | 可用：判断内容类型，从 25 个结构里推荐 2–3 个，列出素材缺口；城市印象题转 `li-city-impressions`，故事/关系 Vlog 转 `li-story-vlog`（这两个自带第 6–8 步） | 形式 |
@@ -72,11 +72,12 @@ metadata:
 
 ### 第 3 步怎么选
 
+- 有素材，但不知道往哪个方向讲、想一次看到多种角度 → `li-angle-team`（先发散，用户挑中方向后可以再用下面四个之一加工）
 - 话题太平、没题感、想找张力 → `li-conflict-topics`
 - 已经知道有分歧，想弄清到底在争什么、从哪个切口讲 → `li-stasis-topoi`
 - 一个具体现象让人觉得「不对劲」，想讲清背后机制和公共性 → `li-public-issues`
 - 题目太小众、只有同行会看，想让圈外人也关心 → `li-topic-ladder`
-- 用户分不清时，问一句「你更想解决的是：太平、在争什么、背后为什么、还是太小众？」
+- 用户分不清时，问一句「你更想解决的是：还没方向、太平、在争什么、背后为什么、还是太小众？」
 
 ### 其他判定要点
 

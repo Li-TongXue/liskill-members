@@ -11,6 +11,15 @@
       "completion_reason": "系统路由入口，不直接生成业务文稿。"
     },
     {
+      "name": "li-angle-team",
+      "display_name": "多视角找角度",
+      "kind": "business",
+      "description": "多视角找角度：用 12 个理论视角分别发现一份素材或已有角度还能和哪些不同的人、在什么处境下发生真实关系，分批展示完整的连接地图，由用户自己挑方向。用户有素材但不知道往哪个方向讲、想一次看到多种角度、或想知道「这件事还和谁有关」时使用；不排序、不替用户选主角度，也不写标题和全稿。",
+      "completion_level": "2",
+      "completion_reason": "内置 12 个理论视角、连接标准、团队调度协议、没有子 Agent 时的单 Agent 依次分析方式和连接地图格式。",
+      "completion_upgrade_status": "已满足：内置 12 个理论视角、连接标准、团队调度协议、没有子 Agent 时的单 Agent 依次分析方式和连接地图格式。"
+    },
+    {
       "name": "li-account-positioning",
       "display_name": "账号定位",
       "kind": "business",
