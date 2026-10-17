@@ -10,6 +10,7 @@ import yaml
 from build_docs import rendered
 from build_distribution import expected as expected_distribution
 from build_references import expected as expected_references
+from build_structures import expected as expected_structures, stale as stale_structures
 
 ROOT = Path(__file__).resolve().parents[1]
 FIELDS = {'name', 'description', 'license', 'compatibility', 'metadata', 'allowed-tools'}
@@ -94,6 +95,10 @@ def check(root=ROOT):
             require(hashlib.sha256((root/source['path']).read_bytes()).hexdigest()==source['sha256'],f'方法来源哈希过期：{source["path"]}')
     for row in json.loads((refs/'external-method-sources.json').read_text(encoding='utf-8')):
         require(hashlib.sha256((refs/row['file']).read_bytes()).hexdigest()==row['bundled_sha256'],f'外部方法副本发生未记录改动：{row["file"]}')
+    for rel,content in expected_structures().items():
+        require((root/rel).is_file() and (root/rel).read_text(encoding='utf-8')==content,f'结构库副本过期：{rel}')
+    for rel in stale_structures():
+        errors.append(f'结构库多余副本：{rel}')
     require((root/'docs/installation.md').read_bytes()==(root/'skills/li-update/references/migration.md').read_bytes(),'更新器内的迁移说明与文档不同')
     require(json.loads((root/'distribution.json').read_text(encoding='utf-8'))==expected_distribution(),'分发清单过期')
     return errors

@@ -3,29 +3,36 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "0fffbe20f295ff4b57fa526dad4a9e0748f9cbd3ccefef9c24606e8dfdce0c5c",
+      "SKILL.md": "2eff2c781d58cf351d04c14c4cae36248b225dc118f5f02effcdb90356150bc3",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
+    "li-account-positioning": {
+      "SKILL.md": "e53d9abcbf6dc1452c70201dfc7000202e0d52604456f9fef745f36b2e9bfcb2",
+      "agents/openai.yaml": "e7c6590e248b26582612fc729d0a9fcc9c49beb26174103cb04827dae22a8902",
+      "references/demo-cases.md": "febd8192f4b72104c08b368c1603c8c64e0a6dfd6e2df1bd2648e5cfde1b0980",
+      "references/positioning-method.md": "bf5ad64d34fc228ee605dd3ab704297a5c31351608d0627232716aeae72a3204",
+      "references/theory-grounding.md": "476ff6da3b89bb2dfbec9377636c2d90effb02e412ea4d78b22da9b6e626edf5"
+    },
     "li-agenda-setting": {
-      "SKILL.md": "6e30ad4acde92f48c26df1d55ab4df547d0fc0fa05da578c259d9d9c436d8acc",
+      "SKILL.md": "4c79f526d1e17f3b1304fb199116783e6312f83ce22b50b4064261c8775f31fb",
       "agents/openai.yaml": "d9700f1dfdc44ddc4500bb4a5300714d2c53c5413b207de13479b826a2f5230f"
     },
     "li-city-impressions": {
-      "SKILL.md": "b268be29115218614b673ccc01fccd8dc39275eba9e8c00ecd25a9a52699b634",
+      "SKILL.md": "5bd1a0f3c3d7395d368d7ac5e7dda79633b3d72bf560909496bfb8d63043a27a",
       "agents/openai.yaml": "c822c62c17da0702f663575a9d57cf432ee7f3d729ddd6a866b8cfec3674669e",
       "references/case-study.md": "6f633a27b10904a22aa804d24798c596569995a146378afb67901e77608c9097",
       "references/city-data.csv": "bed204efd942cd838899d3fb4d4a604e9ce7dfa54fae85419c1d4f0cd0cd32bb"
     },
     "li-conflict-topics": {
-      "SKILL.md": "3fd75657fbb5f0ba7414d9a4e37e69cad8fd8e86b2908a50615263f6feb217d3",
+      "SKILL.md": "25fe8f1f8318c9b591ce0465e1023c0f4a32b43a89c8c8c9560c7f8e16ac9728",
       "agents/openai.yaml": "ea88db91722a4d1fda2e1a69dc50b19820297a37cf1b8cb9351a62d4bf82be77"
     },
     "li-eight-audits": {
-      "SKILL.md": "750c0481fbb16b0aec25aa400843d2e69f4bb3625feff3950096fcd1fbce980b",
+      "SKILL.md": "f48996f4ed941bf9b0e15cc144626748b551039321c76178267e4009a914e5ea",
       "agents/openai.yaml": "8476b70fcfe5a0a9f30f03288ea02afce54e65618083d0bc7d184ecc30b14bf4"
     },
     "li-material-mining": {
-      "SKILL.md": "1eeab8610cf0c72cc65ef234eee1e42c9a1ede0b00a63297a70fbdc2acfef556",
+      "SKILL.md": "362cd32c7b40c6018a8c5117d89de34b3975cf5e90cd2f4b6422ac40869ac499",
       "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
       "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
       "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
@@ -37,27 +44,145 @@
       "references/stasis-theory.md": "d0de25615588326a545e9ca04b0d165266e379da769f54aea5aae3fa173c5dc9",
       "references/stasis-topoi.md": "607092566419a2b39e91a8b58df1c96511cf2a9174adbe3ac26ce4ba580aac71"
     },
+    "li-angle-team": {
+      "SKILL.md": "4ad3dc745a3f82e4319d373a11b4e55a1cd9804144bbf5f2e5b020a891c7d2da",
+      "agents/openai.yaml": "4471c5f0945cadf9eaf13e36e3b91e9eb15c8bb3dc51484226101164abfede32",
+      "references/business-check.md": "5b3c17b8dc9b76a5792e0816bd9aaec249e59323d37c87e8dc3cbd0394b1c855",
+      "references/connection-standard.md": "6dc2335a87beba2b41716892a047735597f91f8b20716338c78047e17e216bf2",
+      "references/lenses.md": "844d460d98ec4f3f6b20406e87f582c71fa9739c3ebb677ece009213df778e38",
+      "references/team-protocol.md": "f975d9b6fc1775ac12276f072b093ee7edb50b291838257233a72b455eef499c",
+      "references/theory-sources.md": "c3507a7c1f73f7b6115be3dd4ec7be28add04a9545fa64c0f7330e8c5606072c"
+    },
     "li-public-issues": {
-      "SKILL.md": "d82494108a5e227fa13e34c431840d72f0dd4dba36ea366d06cf6bbc41d30ae2",
+      "SKILL.md": "fcd07b46ff142b7241aaf2bcea529773358d3fe6457e227f69e0ea0410beacd7",
       "agents/openai.yaml": "7b0f115d8587ad20b36e6a8bba9bb500d743e65afa0ea3dda4b9a201ed280077",
       "references/case-study.md": "d0bc272aa6011b9ab2e993c0582567c5376f2dfe57d310dbb3dc626f82f9da4b"
+    },
+    "li-topic-ladder": {
+      "SKILL.md": "5312bc42ab43fa5dde3f4e4f7bbd8ba19d367d67da98fb5fbed1259944bd4b99",
+      "agents/openai.yaml": "ee8ff6aab90615b1768b390c71680e4dbf5af4e0e5d7747498043c23fe57a00b",
+      "references/theory-sources.md": "f4fe580a7e5d991b214ac2d3654841793b9b35ad8cb14db1b454e6f0a14e2a5f"
     },
     "li-social-currency": {
       "SKILL.md": "7972552db21c1febe64919c3e40a77d3a70725d3d4a459516eaa3d9e546ddd2f",
       "agents/openai.yaml": "41588b7befbd0821245984e0a60caa3c3ed8eb361ed559ea31bec39307f8a377"
     },
     "li-stasis-topos": {
-      "SKILL.md": "3ed5ae176f943e9955bc7ddf8776b84c3f64de88a98f7698bd96b8c4dc146902",
+      "SKILL.md": "fdbb3d3c7ffafe9b8eb5374f91ff9dd989e859413ac46fbbe1d5442556644004",
       "agents/openai.yaml": "5c95237bc3a206162b2d466a5d8c96b3246e0bb3c1adceae654a995876596a5e",
       "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
     },
+    "li-worth-shooting": {
+      "SKILL.md": "6eeab49a0e122e14395a514323e23415e8717e850dab0905a74c5443429fdbb8",
+      "agents/openai.yaml": "17e83d6a91032f4df1e15777ed6bfd172603c59d3692d1b0ecccb08407edbfcd",
+      "references/criteria-sources.md": "2275947cd0abd51a5e577292699b04b0eb273b911922c6b1a8cfb86173f83ea5",
+      "references/theory-grounding.md": "91bf0a4223c2897c1508d44204d02c7dba306b0e9e89c7a1f9493f098637582c"
+    },
+    "li-script-form": {
+      "SKILL.md": "12bda04e8fc6e279ba8521ffc67fd9d6d2c2648a841e4db6296ee05fec1c7691",
+      "agents/openai.yaml": "68fccca6436b26f60d7da51c06dca106dc091c3e15ecdbbc7be0138809826f10",
+      "references/structure-index.md": "03630215c2c04e3b5143e949935c9b9529a85e66f57f0d795a3b671e1e0fd0f2",
+      "references/structures/B2B型-工厂参观.md": "dc2077b022385ca9dac738cb19c0f33d90366b0de4a845cee147d535f977db1e",
+      "references/structures/VLOG型-小助理视角.md": "5aa93327cb3995d7d5f6615e51ec0a4e428e0cd57bf7feb10162f0d008f39ba1",
+      "references/structures/个人故事-几杯酒.md": "f98e2ede94d18edfc0a64fbfaa8c4257200e271469a5c312dca0e691d7fc6aba",
+      "references/structures/个人故事-多事件曲折递进.md": "593059e5f29d4d2b270801b6c36794ccbc45d7d7c80bafbea9bf0a0cc50a02c5",
+      "references/structures/个人故事-失败开篇多磨难.md": "d049cf813cbcad0d08597f70c3cae1ef8d253b519d529099009b5fc4e778d35c",
+      "references/structures/个人故事-我这辈子.md": "cb9cbf56d9bd167fba3579cc6143a54088976243ab99d89b9f702c33c11f3e49",
+      "references/structures/个人故事-敬自己.md": "0cf5f096301a9f492d474d953936e2aac5f09fc47595eb9481dbe4bacf822d0e",
+      "references/structures/个人故事-见证我翻盘.md": "6d1f8a2900a6c930818e04e2247ec56d91d6050a6da54435a630bfa92e88b14c",
+      "references/structures/内行人-偷拍避坑.md": "28842cb2c712b30b032d9ef4daa9ded5adaa24748320eefa2e0e10c7ac7f6dde",
+      "references/structures/服务业-探工地.md": "9f74185e41e0b3cd683d84dc6ce3cd31ad7690a0ffc13a15a2de6620620bf018",
+      "references/structures/服务业-搭配挑战.md": "bc1233409a918fc2c35d41bec2879dbd8e88c695c8914e776df984005accdc18",
+      "references/structures/服务业-翻车完美收场.md": "c02cb8479f55ceaf812aff9cadcc3d980edf0793b090c32e10a0e46f352df5f6",
+      "references/structures/生活故事-人设塑造.md": "e3043f709e31e04897616dfa7d399da26cbebe3dcb13072cfa92d93bfe771d76",
+      "references/structures/电商型-发货展示.md": "643eec3892a294b229f0c696591e99b8a97f7a911b4e77b5d4078f9f6b248de3",
+      "references/structures/知识型-三字经问答.md": "3aa2b08e0f4d22f04c77c158c898324a7151d1bf800d375aadcd0e2701e938bf",
+      "references/structures/知识型-品牌快判断.md": "4a25d3871999c58bcd0be0ead01852799b1af07156b2d262fd0d2dfc72ea1a45",
+      "references/structures/知识型-情景OS教学.md": "f893ba5c4d598e0d6ee657ad47761f9f65f80d8baa3eb4492366541ce6f0d23f",
+      "references/structures/知识型-情景对立避坑.md": "0cf57196d4a7bdc81ec8179ded79af1c196d11645b6a7812617d6105544213ee",
+      "references/structures/知识型-故事讲观点.md": "2fe5fb84a90c52cdb1d17cc0caf084c4e64e3e7aed08ef9303947ae5edf30e8f",
+      "references/structures/知识型-黑幕揭秘.md": "b9b3aec3c192d612a1a21bcacd0f563b0c35689cfcdc23e68bbc6b48ccf91459",
+      "references/structures/观点型-强观点钩子-三论点.md": "a4edbfa6ad5b243f5471c583df5ae186fa34031ceba42ef965eb8f4dd8a34dd1",
+      "references/structures/观点型-案例故事递进.md": "9757d2a89f2e5732f6a222cc080ca5334f20b9eda490c3833130515ed3e94289",
+      "references/structures/观点型-错误对比-三举例.md": "0d4bb8590ac83dbe723fd29c778119c62225b321683f9edc57bf0bda0d0d8f8b",
+      "references/structures/餐饮型-差评回复巡店.md": "8196daea5c4ae889c812e201460c9f2f138247e5d85283258617d026c9a29bc7",
+      "references/structures/高敏野心家-标准失准破局.md": "b94726492ffd6117850b8019154b0efd687fb12c4d731d12c83c350429560362",
+      "references/四类脚本.md": "130df2c78d931b285d2dfa162c70a0473910c9cf8718578c4d99f45f251be544",
+      "references/理论依据.md": "16d5e2ef45aae11b8568c4f305e66fd81b59b0d972a35b9d81da09711bc3b8a5"
+    },
+    "li-script-opening": {
+      "SKILL.md": "ecbdfd66a3b025a85a99bb56aa9e29b7a02a55b4d1c14ad4ba414de7cbcbd06f",
+      "agents/openai.yaml": "d0d27397021658a3a7e0da942000d34d09d6bfc381991772890bc5b112806fec",
+      "references/structure-index.md": "03630215c2c04e3b5143e949935c9b9529a85e66f57f0d795a3b671e1e0fd0f2",
+      "references/structures/B2B型-工厂参观.md": "dc2077b022385ca9dac738cb19c0f33d90366b0de4a845cee147d535f977db1e",
+      "references/structures/VLOG型-小助理视角.md": "5aa93327cb3995d7d5f6615e51ec0a4e428e0cd57bf7feb10162f0d008f39ba1",
+      "references/structures/个人故事-几杯酒.md": "f98e2ede94d18edfc0a64fbfaa8c4257200e271469a5c312dca0e691d7fc6aba",
+      "references/structures/个人故事-多事件曲折递进.md": "593059e5f29d4d2b270801b6c36794ccbc45d7d7c80bafbea9bf0a0cc50a02c5",
+      "references/structures/个人故事-失败开篇多磨难.md": "d049cf813cbcad0d08597f70c3cae1ef8d253b519d529099009b5fc4e778d35c",
+      "references/structures/个人故事-我这辈子.md": "cb9cbf56d9bd167fba3579cc6143a54088976243ab99d89b9f702c33c11f3e49",
+      "references/structures/个人故事-敬自己.md": "0cf5f096301a9f492d474d953936e2aac5f09fc47595eb9481dbe4bacf822d0e",
+      "references/structures/个人故事-见证我翻盘.md": "6d1f8a2900a6c930818e04e2247ec56d91d6050a6da54435a630bfa92e88b14c",
+      "references/structures/内行人-偷拍避坑.md": "28842cb2c712b30b032d9ef4daa9ded5adaa24748320eefa2e0e10c7ac7f6dde",
+      "references/structures/服务业-探工地.md": "9f74185e41e0b3cd683d84dc6ce3cd31ad7690a0ffc13a15a2de6620620bf018",
+      "references/structures/服务业-搭配挑战.md": "bc1233409a918fc2c35d41bec2879dbd8e88c695c8914e776df984005accdc18",
+      "references/structures/服务业-翻车完美收场.md": "c02cb8479f55ceaf812aff9cadcc3d980edf0793b090c32e10a0e46f352df5f6",
+      "references/structures/生活故事-人设塑造.md": "e3043f709e31e04897616dfa7d399da26cbebe3dcb13072cfa92d93bfe771d76",
+      "references/structures/电商型-发货展示.md": "643eec3892a294b229f0c696591e99b8a97f7a911b4e77b5d4078f9f6b248de3",
+      "references/structures/知识型-三字经问答.md": "3aa2b08e0f4d22f04c77c158c898324a7151d1bf800d375aadcd0e2701e938bf",
+      "references/structures/知识型-品牌快判断.md": "4a25d3871999c58bcd0be0ead01852799b1af07156b2d262fd0d2dfc72ea1a45",
+      "references/structures/知识型-情景OS教学.md": "f893ba5c4d598e0d6ee657ad47761f9f65f80d8baa3eb4492366541ce6f0d23f",
+      "references/structures/知识型-情景对立避坑.md": "0cf57196d4a7bdc81ec8179ded79af1c196d11645b6a7812617d6105544213ee",
+      "references/structures/知识型-故事讲观点.md": "2fe5fb84a90c52cdb1d17cc0caf084c4e64e3e7aed08ef9303947ae5edf30e8f",
+      "references/structures/知识型-黑幕揭秘.md": "b9b3aec3c192d612a1a21bcacd0f563b0c35689cfcdc23e68bbc6b48ccf91459",
+      "references/structures/观点型-强观点钩子-三论点.md": "a4edbfa6ad5b243f5471c583df5ae186fa34031ceba42ef965eb8f4dd8a34dd1",
+      "references/structures/观点型-案例故事递进.md": "9757d2a89f2e5732f6a222cc080ca5334f20b9eda490c3833130515ed3e94289",
+      "references/structures/观点型-错误对比-三举例.md": "0d4bb8590ac83dbe723fd29c778119c62225b321683f9edc57bf0bda0d0d8f8b",
+      "references/structures/餐饮型-差评回复巡店.md": "8196daea5c4ae889c812e201460c9f2f138247e5d85283258617d026c9a29bc7",
+      "references/structures/高敏野心家-标准失准破局.md": "b94726492ffd6117850b8019154b0efd687fb12c4d731d12c83c350429560362",
+      "references/开头方法.md": "67f73d3a181888bbbea753ae8c83da51ad0724d62e7c325b461b55a27e314986",
+      "references/理论依据.md": "16d5e2ef45aae11b8568c4f305e66fd81b59b0d972a35b9d81da09711bc3b8a5"
+    },
+    "li-script-writing": {
+      "SKILL.md": "5ccdec8b269fbac4006bad7f42dcfd3783b978c252a2c510d393c1770eeb3ce5",
+      "agents/openai.yaml": "5742f8eadaad79a4d9481ca27a829fd339a993315a4303bec497c809590edfaf",
+      "references/structure-index.md": "03630215c2c04e3b5143e949935c9b9529a85e66f57f0d795a3b671e1e0fd0f2",
+      "references/structures/B2B型-工厂参观.md": "dc2077b022385ca9dac738cb19c0f33d90366b0de4a845cee147d535f977db1e",
+      "references/structures/VLOG型-小助理视角.md": "5aa93327cb3995d7d5f6615e51ec0a4e428e0cd57bf7feb10162f0d008f39ba1",
+      "references/structures/个人故事-几杯酒.md": "f98e2ede94d18edfc0a64fbfaa8c4257200e271469a5c312dca0e691d7fc6aba",
+      "references/structures/个人故事-多事件曲折递进.md": "593059e5f29d4d2b270801b6c36794ccbc45d7d7c80bafbea9bf0a0cc50a02c5",
+      "references/structures/个人故事-失败开篇多磨难.md": "d049cf813cbcad0d08597f70c3cae1ef8d253b519d529099009b5fc4e778d35c",
+      "references/structures/个人故事-我这辈子.md": "cb9cbf56d9bd167fba3579cc6143a54088976243ab99d89b9f702c33c11f3e49",
+      "references/structures/个人故事-敬自己.md": "0cf5f096301a9f492d474d953936e2aac5f09fc47595eb9481dbe4bacf822d0e",
+      "references/structures/个人故事-见证我翻盘.md": "6d1f8a2900a6c930818e04e2247ec56d91d6050a6da54435a630bfa92e88b14c",
+      "references/structures/内行人-偷拍避坑.md": "28842cb2c712b30b032d9ef4daa9ded5adaa24748320eefa2e0e10c7ac7f6dde",
+      "references/structures/服务业-探工地.md": "9f74185e41e0b3cd683d84dc6ce3cd31ad7690a0ffc13a15a2de6620620bf018",
+      "references/structures/服务业-搭配挑战.md": "bc1233409a918fc2c35d41bec2879dbd8e88c695c8914e776df984005accdc18",
+      "references/structures/服务业-翻车完美收场.md": "c02cb8479f55ceaf812aff9cadcc3d980edf0793b090c32e10a0e46f352df5f6",
+      "references/structures/生活故事-人设塑造.md": "e3043f709e31e04897616dfa7d399da26cbebe3dcb13072cfa92d93bfe771d76",
+      "references/structures/电商型-发货展示.md": "643eec3892a294b229f0c696591e99b8a97f7a911b4e77b5d4078f9f6b248de3",
+      "references/structures/知识型-三字经问答.md": "3aa2b08e0f4d22f04c77c158c898324a7151d1bf800d375aadcd0e2701e938bf",
+      "references/structures/知识型-品牌快判断.md": "4a25d3871999c58bcd0be0ead01852799b1af07156b2d262fd0d2dfc72ea1a45",
+      "references/structures/知识型-情景OS教学.md": "f893ba5c4d598e0d6ee657ad47761f9f65f80d8baa3eb4492366541ce6f0d23f",
+      "references/structures/知识型-情景对立避坑.md": "0cf57196d4a7bdc81ec8179ded79af1c196d11645b6a7812617d6105544213ee",
+      "references/structures/知识型-故事讲观点.md": "2fe5fb84a90c52cdb1d17cc0caf084c4e64e3e7aed08ef9303947ae5edf30e8f",
+      "references/structures/知识型-黑幕揭秘.md": "b9b3aec3c192d612a1a21bcacd0f563b0c35689cfcdc23e68bbc6b48ccf91459",
+      "references/structures/观点型-强观点钩子-三论点.md": "a4edbfa6ad5b243f5471c583df5ae186fa34031ceba42ef965eb8f4dd8a34dd1",
+      "references/structures/观点型-案例故事递进.md": "9757d2a89f2e5732f6a222cc080ca5334f20b9eda490c3833130515ed3e94289",
+      "references/structures/观点型-错误对比-三举例.md": "0d4bb8590ac83dbe723fd29c778119c62225b321683f9edc57bf0bda0d0d8f8b",
+      "references/structures/餐饮型-差评回复巡店.md": "8196daea5c4ae889c812e201460c9f2f138247e5d85283258617d026c9a29bc7",
+      "references/structures/高敏野心家-标准失准破局.md": "b94726492ffd6117850b8019154b0efd687fb12c4d731d12c83c350429560362",
+      "references/四类脚本.md": "130df2c78d931b285d2dfa162c70a0473910c9cf8718578c4d99f45f251be544",
+      "references/开头方法.md": "67f73d3a181888bbbea753ae8c83da51ad0724d62e7c325b461b55a27e314986",
+      "references/理论依据.md": "16d5e2ef45aae11b8568c4f305e66fd81b59b0d972a35b9d81da09711bc3b8a5",
+      "references/精修清单.md": "f1ee1d2df2bd17d17b6436df3f6e7546553d39ae659247a87b894135d12769af"
+    },
     "li-story-vlog": {
-      "SKILL.md": "88e1f669e3a0d996d5db410f6f1f7f19c9628dc7fc54269e4be9f3d1ccef093b",
+      "SKILL.md": "116302502d1ed7e66dc94aaaaed82d674439c39b45f5f40ab2624bb84c3d40e8",
       "agents/openai.yaml": "3bde34ad16c077e6ba6652f34c1860f2934773d2a79cf122604e61e703ac5a57",
       "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0"
     },
     "li-publish-pack": {
-      "SKILL.md": "ceea292e53402c924ca1c305dcc28c58506cb08b50975ee2bfd8b03b791a859b"
+      "SKILL.md": "329039edf2e65a140d3de308067252a98b5ab8a38eb65fc0049a7a6dbd19db3f"
     },
     "li-update": {
       "SKILL.md": "0f855b98fe8d9f656d2ed8189ccc2c1879797ce4b0889ca3a96e25a171c5a1f9",
