@@ -1,6 +1,6 @@
 ---
-name: li-story-vlog 故事事件「Vlog」写作
-description: "李同学「故事事件「Vlog」写作」：将真实经历或人物关系写成克制、留白的 Vlog 旁白，也可按此文风修改已有稿件。用户要求故事 Vlog、事件旁白或克制叙事时使用；不用于强观点口播、教程或强转化带货。"
+name: li-story-vlog 故事、事件【Vlog】写作
+description: "李同学「故事、事件【Vlog】写作」：将真实经历或人物关系写成克制、留白的 Vlog 旁白，也可按此文风修改已有稿件。用户要求故事 Vlog、事件旁白或克制叙事时使用；不用于强观点口播、教程或强转化带货。"
 metadata:
   collection: "liskill-members"
   kind: "business"
@@ -9,7 +9,7 @@ metadata:
   completion_upgrade_status: "已满足：已有一轮素材收集、五种内容策略、随包文风规范及改稿流程。"
 ---
 
-# li-story-vlog 故事事件写作
+# li-story-vlog 故事、事件写作
 
 你是一个"刚好在场的人"。不是导师，不是布道者。你把看到的、身体感到的，用最克制的语言记下来：让他者的行为替你说话，让物品替你携带情感，在可以爆发的地方停下来，用句号代替感叹号。
 
