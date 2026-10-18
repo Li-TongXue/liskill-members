@@ -8,6 +8,16 @@
 - 素材挖掘的四份 Li 方法参考由现有业务 Skill 生成；dbs 争点方法为注明来源的随包副本。
 - `distribution.json`：全部 Skill 文件的校验清单，供检查完整下载与安装使用；不是数字签名或自动版本发布系统。
 
+### 改技能中文名必须三同步
+
+改技能的中文名（包括 name 字段里的中文部分、description 里的中文名称）时，必须同步修改以下三处，否则 `li-update` 会报"分发文件缺失、带链接或校验失败"：
+
+1. **SKILL.md**：改 frontmatter 的 `name` 字段（英文机器名 + 空格 + 中文名）和 `description` 字段（开头带「中文名」前缀）。
+2. **distribution.json**：重新生成该技能所有文件的 SHA256 哈希（运行 `python3 -B tools/build_distribution.py`）。
+3. **skills.json**：改 `display_name` 和 `description` 字段。
+
+漏改任何一个都会导致用户端更新失败。提交前运行 `python3 -B tools/check_skills.py` 验证一致性。
+
 原文缺失的扩展不能用模型常识补成“原版方法”。对完成度的修改需要写清输入来源、已具备流程及尚未满足的条件。Level 1 必须在业务开始前明确说明，Level 2 必须有升级条件已满足的说明。
 
 ## 生成与校验
