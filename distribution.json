@@ -52,9 +52,9 @@
       "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
     },
     "li-story-vlog": {
-      "SKILL.md": "88e1f669e3a0d996d5db410f6f1f7f19c9628dc7fc54269e4be9f3d1ccef093b",
-      "agents/openai.yaml": "3bde34ad16c077e6ba6652f34c1860f2934773d2a79cf122604e61e703ac5a57",
-      "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0"
+      "SKILL.md": "987ecb510d354fc839ccce5e58f621bd2a0bb0128f3e4c31f4591e541938bb3e",
+      "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0",
+      "agents/openai.yaml": "3bde34ad16c077e6ba6652f34c1860f2934773d2a79cf122604e61e703ac5a57"
     },
     "li-publish-pack": {
       "SKILL.md": "ceea292e53402c924ca1c305dcc28c58506cb08b50975ee2bfd8b03b791a859b"

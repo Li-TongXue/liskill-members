@@ -83,9 +83,9 @@
     },
     {
       "name": "li-story-vlog",
-      "display_name": "故事事件「Vlog」写作",
+      "display_name": "故事、事件【Vlog】写作",
       "kind": "business",
-      "description": "故事事件「Vlog」写作：将真实经历或人物关系写成克制、留白的 Vlog 旁白，也可按此文风修改已有稿件。用户要求故事 Vlog、事件旁白或克制叙事时使用；不用于强观点口播、教程或强转化带货。",
+      "description": "故事、事件【Vlog】写作：将真实经历或人物关系写成克制、留白的 Vlog 旁白，也可按此文风修改已有稿件。用户要求故事 Vlog、事件旁白或克制叙事时使用；不用于强观点口播、教程或强转化带货。",
       "completion_level": "2",
       "completion_reason": "已有一轮素材收集、五种内容策略、随包文风规范及改稿流程。",
       "completion_upgrade_status": "已满足：已有一轮素材收集、五种内容策略、随包文风规范及改稿流程。"
