@@ -1,4 +1,4 @@
 interface:
-  display_name: "li-stasis-topoi（修辞学选题法）"
+  display_name: "li-stasis-topos（修辞学选题法）"
   short_description: "从已有事实和不同解释中识别核心争点，再选择因果、定义、对比等切口形成选题。"
-  default_prompt: "使用 $li-stasis-topoi，根据我提供的材料完成当前任务。"
+  default_prompt: "使用 $li-stasis-topos，根据我提供的材料完成当前任务。"

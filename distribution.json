@@ -26,16 +26,16 @@
     },
     "li-material-mining": {
       "SKILL.md": "1eeab8610cf0c72cc65ef234eee1e42c9a1ede0b00a63297a70fbdc2acfef556",
-      "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
-      "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
       "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
-      "references/li-method-sources.json": "409ec3ee7c57541459fb5273476cd9d6d7a3973a418f43c8a4fb375c99ea6d33",
-      "references/public-issues.md": "c7552d750104c5cb79a10f353faea24cdd834c4953e937b60b7abeb628b28237",
-      "references/social-currency.md": "f18528c1be4c6837963fb08e55be80584708742395c78f35c4235cfa56cac2f0",
+      "references/stasis-topos.md": "607092566419a2b39e91a8b58df1c96511cf2a9174adbe3ac26ce4ba580aac71",
       "references/sources.md": "cad8ff5ebbaa289902778dee4ba0df6283587b3c3a25f257b3740ee405ab1155",
       "references/stasis-angle.md": "78411d9fcbbfd799df6d1f6191b1a8922577f296d892edb5fc9b9232215919ba",
+      "references/public-issues.md": "c7552d750104c5cb79a10f353faea24cdd834c4953e937b60b7abeb628b28237",
+      "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
+      "references/social-currency.md": "f18528c1be4c6837963fb08e55be80584708742395c78f35c4235cfa56cac2f0",
+      "references/li-method-sources.json": "409ec3ee7c57541459fb5273476cd9d6d7a3973a418f43c8a4fb375c99ea6d33",
       "references/stasis-theory.md": "d0de25615588326a545e9ca04b0d165266e379da769f54aea5aae3fa173c5dc9",
-      "references/stasis-topoi.md": "607092566419a2b39e91a8b58df1c96511cf2a9174adbe3ac26ce4ba580aac71"
+      "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a"
     },
     "li-public-issues": {
       "SKILL.md": "d82494108a5e227fa13e34c431840d72f0dd4dba36ea366d06cf6bbc41d30ae2",
@@ -48,8 +48,8 @@
     },
     "li-stasis-topos": {
       "SKILL.md": "3ed5ae176f943e9955bc7ddf8776b84c3f64de88a98f7698bd96b8c4dc146902",
-      "agents/openai.yaml": "5c95237bc3a206162b2d466a5d8c96b3246e0bb3c1adceae654a995876596a5e",
-      "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
+      "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f",
+      "agents/openai.yaml": "e8622311836fc6805099bc6fe64074f7bdc8cb504927c60baa2df12d1fef06c3"
     },
     "li-story-vlog": {
       "SKILL.md": "987ecb510d354fc839ccce5e58f621bd2a0bb0128f3e4c31f4591e541938bb3e",
