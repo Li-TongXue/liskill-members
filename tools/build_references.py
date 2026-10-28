@@ -7,7 +7,12 @@ import json
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / 'skills/li-material-mining/references'
 SOURCES = {
-    'stasis-topos.md': ['skills/li-stasis-topos/SKILL.md', 'skills/li-stasis-topos/references/method.md'],
+    'stasis-topos.md': [
+        'skills/li-stasis-topos/SKILL.md',
+        'skills/li-stasis-topos/references/output-format.md',
+        'skills/li-stasis-topos/references/quality-checklist.md',
+        'skills/li-stasis-topos/references/golden-examples.md',
+    ],
     'conflict.md': ['skills/li-conflict-topics/SKILL.md'],
     'public-issues.md': ['skills/li-public-issues/SKILL.md', 'skills/li-public-issues/references/case-study.md'],
     'social-currency.md': ['skills/li-social-currency/SKILL.md'],
@@ -23,6 +28,7 @@ def expected():
             if text.startswith('---\n'):
                 text = text.split('---', 2)[2].lstrip()
             text = text.replace('(references/method.md)', '(#争点与切口参考)').replace('`references/case-study.md`', '下方的完整案例')
+            text = text.replace('(references/output-format.md)', '(#固定输出格式完整聊天版)').replace('(references/quality-checklist.md)', '(#质量检查)').replace('(references/golden-examples.md)', '(#标准案例)')
             parts.append(f'\n<!-- source: {source} -->\n\n{text}')
         result[target] = '\n'.join(parts).rstrip() + '\n'
     return result
