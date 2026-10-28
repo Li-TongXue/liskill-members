@@ -72,7 +72,7 @@
     "li-update": {
       "SKILL.md": "0f855b98fe8d9f656d2ed8189ccc2c1879797ce4b0889ca3a96e25a171c5a1f9",
       "agents/openai.yaml": "bf10f4f62a687b7ac7bf0ccaa551fe4eeca9431c917bb6e6499c66408ecbcf92",
-      "references/legacy-installations.json": "aef899fbcee789aa0c847e799c2a89fb6102b6a57905235298d950a97e82e509",
+      "references/legacy-installations.json": "fc964235de016edb884e66d3e8cf13e85929da8d00768df74ee19f063dd3d1e7",
       "references/migration.md": "4bdcf6bdb5da2e355b0b78770c5f46775e88121b0a00858c6737caa8ae620b67",
       "scripts/update.py": "38a70d6df0f98001075cd1d7c0118fa8658b6f45907d3b039448d7eab6ebc76c"
     }
