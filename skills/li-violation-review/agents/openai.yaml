@@ -1,0 +1,4 @@
+interface:
+  display_name: "li-violation-review（违规审核）"
+  short_description: "对短视频文案做违禁词与违禁语境审核，按三平台差异给出合规改写。"
+  default_prompt: "使用 $li-violation-review，根据我提供的材料完成当前任务。"
